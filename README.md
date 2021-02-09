@@ -1,48 +1,39 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  VTEX SFJ minimal starter
-</h1>
+# VTEX inStore Dev
 
-## 🚀 Quick start
+## Setup
 
-1.  **Create a Gatsby site.**
+```bash
+yarn
+```
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+(must have npm permission to use private @vtexlab packages)
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## Run
 
-2.  **Start developing.**
+```bash
+yarn start
+```
 
-    Navigate into your new site’s directory and start it up.
+## Build
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+```bash
+yarn build
+```
 
-3.  **Open the code and start customizing!**
+To test build:
 
-    Your site is now running at http://localhost:8000!
+```bash
+yarn serve
+```
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+## Test
 
-4.  **Learn more**
+```bash
+yarn test
+```
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## To launch another version
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```bash
+Open a PR on this repo (probably updating @vtexlab/gatsby-theme-instore-core version)
+```
