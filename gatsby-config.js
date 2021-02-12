@@ -3,8 +3,5 @@ module.exports = {
     {
       resolve: '@vtexlab/gatsby-theme-instore-core',
     },
-    {
-      resolve: '@vtex/gatsby-plugin-nginx',
-    },
   ],
 }
