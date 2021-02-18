@@ -1830,14 +1830,6 @@
   resolved "https://registry.yarnpkg.com/@vtex/gatsby-plugin-admin-ui/-/gatsby-plugin-admin-ui-0.1.1.tgz#d60413bf170829cdc63b07b585dfc9b770e3625f"
   integrity sha512-pcGAu/PJkn5DCD8A52ZYOTmY/YF6Gzlwm/pTvKXyJJJyAzSRG+SLOal+BVeEvh/I2vE+P1D2K06nhrW6XDvOPg==
 
-"@vtex/gatsby-plugin-nginx@^0.258.0":
-  version "0.258.0"
-  resolved "https://registry.yarnpkg.com/@vtex/gatsby-plugin-nginx/-/gatsby-plugin-nginx-0.258.0.tgz#0e93df6de3a2e69d3dc3ea1a46f055746d1f8b07"
-  integrity sha512-3EB14HSQVehtyjVqnH6i3dCRqVQQ8k+HTJBVV+MaG8XEA6hSIjeXFyJz5I/oMVLF1ZiVcxHRUyjPiK1ro7wunA==
-  dependencies:
-    kebab-hash "^0.1.2"
-    webpack-assets-manifest "^3.1.1"
-
 "@vtex/gatsby-plugin-nginx@^0.261.0":
   version "0.261.0"
   resolved "https://registry.yarnpkg.com/@vtex/gatsby-plugin-nginx/-/gatsby-plugin-nginx-0.261.0.tgz#c34f25cafa61126c696097f4e3ed0f93391397bd"
