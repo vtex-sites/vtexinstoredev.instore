@@ -18,7 +18,7 @@ export const ContactScreen: FC<{ path: string }> = () => {
         }}
       >
         <Paragraph styleOverrides={{ marginBottom: '1rem' }}>
-          vtexinstoredev contact for this website is actually:
+          VTEXINSTOREDEV contact for this website is actually:
           instoredevs@vtex.com
         </Paragraph>
         <img
