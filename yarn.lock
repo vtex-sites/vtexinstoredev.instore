@@ -1832,10 +1832,10 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@vtex/gatsby-instore-plugin-example@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example/-/gatsby-instore-plugin-example-0.0.4.tgz#9fe738e78f95c27a5747955ea6ca3e860debf39c"
-  integrity sha512-mGgH9jQxRTLMj1wpPqCMcOqED2VEjniY8dlp+5myMZ4TX00x143MBY4XxvoZMsDtoeq3Jfq5WsWAD78oZRA93A==
+"@vtex/gatsby-instore-plugin-example@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example/-/gatsby-instore-plugin-example-0.0.5.tgz#5c8a998df77642d12dbf5b7111a673449ea84d49"
+  integrity sha512-9JF+iyb2AjTT+gGFgZ/bbw/vUD98DZfDZE6eAPUpcSPgnWgoudjGg2EvVDQTG6zD0KeOcK0UWhHf0Z4x44lDUQ==
 
 "@vtex/gatsby-plugin-admin-ui@^0.1.1":
   version "0.1.1"
@@ -1860,10 +1860,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/gatsby-theme-instore-core@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.5.tgz#3389a1655b9b138c8a58a8a9ac43641d2a8ca438"
-  integrity sha512-P6CamErgaKPKtrIR4eRdBtUjB3/9oXkUsrhrwBrqPj9JQxIcZMirB8Wy7h3iW5hRgVYlZjgs72CgYo3dkT/MKg==
+"@vtexlab/gatsby-theme-instore-core@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.8.tgz#137e48cbc530242436ad7c3d41870717f09103f5"
+  integrity sha512-NOFXb/RIO63//rVzTp5e7C3+9g9j0pvbYUuwCXGT4gcxLM6cF1Ed8lQyAuj6ChJBspRZMqi+vDrvUu/6RhZktA==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@vtex/admin-ui" "^0.82.4"
@@ -1875,6 +1875,7 @@
     react "^17.0.1"
     react-dom "^17.0.1"
     react-helmet "^6.1.0"
+    react-no-ssr "^1.1.0"
     react-router-dom "^5.2.0"
 
 "@webassemblyjs/ast@1.9.0":
@@ -2570,7 +2571,7 @@ babel-preset-gatsby@^0.12.1:
     gatsby-core-utils "^1.10.0"
     gatsby-legacy-polyfills "^0.7.0"
 
-babel-runtime@^6.26.0:
+babel-runtime@6.x.x, babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
@@ -10225,6 +10226,13 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-no-ssr@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-no-ssr/-/react-no-ssr-1.1.0.tgz#313b48d2e26020f969ed98e472f10481604e3cc8"
+  integrity sha1-MTtI0uJgIPlp7ZjkcvEEgWBOPMg=
+  dependencies:
+    babel-runtime "6.x.x"
 
 react-refresh@^0.8.3:
   version "0.8.3"
