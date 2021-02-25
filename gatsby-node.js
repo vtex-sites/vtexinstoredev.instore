@@ -1,10 +1,14 @@
-module.exports = {
-  plugins: [
-    {
-      resolve: '@vtexlab/gatsby-theme-instore-core',
-    },
-    {
-      resolve: '@vtex/gatsby-instore-plugin-example',
-    },
-  ],
+exports.onCreatePage = async (args) => {
+  const {
+    actions: { createRedirect },
+  } = args
+
+  // Redirect / to /instore
+  createRedirect({
+    fromPath: `/`,
+    toPath: '/instore',
+    isPermanent: true,
+    statusCode: 301,
+    redirectInBrowser: false,
+  })
 }
