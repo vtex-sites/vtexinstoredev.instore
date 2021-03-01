@@ -9,5 +9,8 @@ module.exports = {
     {
       resolve: '@vtex/gatsby-instore-plugin-example-2',
     },
+    {
+      resolve: '@vtex/gatsby-instore-plugin-example-3',
+    },
   ],
 }
