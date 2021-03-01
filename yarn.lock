@@ -1832,15 +1832,20 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@vtex/gatsby-instore-plugin-example-2@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example-2/-/gatsby-instore-plugin-example-2-0.0.6.tgz#faaffe8ddfc6347fabbf569ebdb9c196024cc9e3"
-  integrity sha512-4+9+xpqs5Y7po1GgaECYOtWqhoGYN23neRQ0skuoCoHazslahpzjlzb2GI7Yy20xwE6mFtY0CZi8BG3eB7qK4Q==
+"@vtex/gatsby-instore-plugin-example-2@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example-2/-/gatsby-instore-plugin-example-2-0.0.7.tgz#bd48dda43492948ef769cc5fb40ac3449d1b20d6"
+  integrity sha512-51SKDHwa9YPokzVADxxyIDCT+LQz6HkQbDr/VIQVTdQoDuafLvDctwdLeFhggR6neRpSNrquEjQfuqg1SUu1Gg==
 
-"@vtex/gatsby-instore-plugin-example@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example/-/gatsby-instore-plugin-example-0.0.6.tgz#da0a1238012cd64d259ccdc8a9a2c3242c14b5a8"
-  integrity sha512-+1cVpcjiDmkIhqzqV1JLVkmK7zw0Cnr8xkN71nVVjmJJrSgtVxHeQ+HPJjMm9ivW0XZ74JbVviGtnwYofxaqbg==
+"@vtex/gatsby-instore-plugin-example-3@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example-3/-/gatsby-instore-plugin-example-3-0.0.7.tgz#e275d87c119677ca39aabe26c3742ff7f0487b80"
+  integrity sha512-uB/k4i09SwoZeRlfOTnUHQZ6N/dS9J636Kkg5uaqRXJmFe+mjipDQ1Hp+AjW32JJdj0joeg1XDHTn84WnTD7Ag==
+
+"@vtex/gatsby-instore-plugin-example@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example/-/gatsby-instore-plugin-example-0.0.7.tgz#73bc0d72742851474c659da6aeb53ecba5966282"
+  integrity sha512-rVUEEjNBpbyz9MnBrBRDhmocSBiThS6FhKD7a+jT3PSroi8aWXzDombusdNxvKlp36Y5NzBxtoc5ASxnQpllLA==
 
 "@vtex/gatsby-plugin-admin-ui@^0.1.1":
   version "0.1.1"
@@ -1873,10 +1878,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/gatsby-theme-instore-core@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.11.tgz#99810119aad201277c2ec0c9bf3e41d21798d507"
-  integrity sha512-xnNnhi7urN77hcBGkI7kJMr0tMSqEIUTXwKeAStIm4SvUO4Qf6QNuMq1JIJbi+1YRsK27d4yrCtvMwihJ/tQIg==
+"@vtexlab/gatsby-theme-instore-core@^0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.12.tgz#efd4009c625030f12117d623089abec9ec9f83f1"
+  integrity sha512-cuqnMI+H3sA3Ff70CSBEwizLBhuzCygHG362hrfy7pgVl5bs9eBjbxdKvMxfhXHPsJBbCXU1mXgYjkS4ZVP5tA==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@vtex/admin-ui" "^0.82.4"
