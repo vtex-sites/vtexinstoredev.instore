@@ -35,5 +35,5 @@ yarn test
 ## To launch another version
 
 ```bash
-Open a PR on this repo (probably updating @vtexlab/gatsby-theme-instore-core version)
+Open a PR to this repo (probably updating @vtexlab/gatsby-theme-instore-core version)
 ```
