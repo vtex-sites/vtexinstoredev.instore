@@ -22,9 +22,9 @@
     "lint:prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,gql,json,yml,md}\""
   },
   "dependencies": {
-    "@vtex/gatsby-instore-plugin-example": "^0.0.7",
-    "@vtex/gatsby-instore-plugin-example-2": "^0.0.7",
-    "@vtex/gatsby-instore-plugin-example-3": "^0.0.7",
+    "@vtex/gatsby-instore-plugin-example": "^0.0.8",
+    "@vtex/gatsby-instore-plugin-example-2": "^0.0.8",
+    "@vtex/gatsby-instore-plugin-example-3": "^0.0.8",
     "@vtexlab/gatsby-theme-instore-core": "^0.0.12",
     "@vtex/gatsby-plugin-nginx": "^0.272.0",
     "gatsby": "^2.32.2"
