@@ -6,7 +6,7 @@
 yarn
 ```
 
-(must have npm permission to use private @vtexlab packages)
+PS.: must have npm permission to use private @vtexlab packages
 
 ## Run
 
