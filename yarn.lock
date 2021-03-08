@@ -1879,10 +1879,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/gatsby-theme-instore-core@0.0.15-beta.0":
-  version "0.0.15-beta.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.15-beta.0.tgz#70956c5715489ec1f855d9a56e2c60c581724d2d"
-  integrity sha512-XWirI0FSSQllIRLxzSrkkugLWjU3prNx1QGPjjZMwuTDorC2p0oKhSf5Vh44ZLmc2Ja30DOfJyjuV1XAKJn9RQ==
+"@vtexlab/gatsby-theme-instore-core@0.0.15-beta.1":
+  version "0.0.15-beta.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.15-beta.1.tgz#fd3cc4cb05d5544e358b7a62a83c016282c90efd"
+  integrity sha512-Nm4BpmlemBWz8L+72aKal+QwOEY9Ot4Cn8XYvpYLSZdVEHBc09/7GtHAHOkRBdMBDrg8u6oSV8dwS5O7h/TlTQ==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@vtex/admin-ui" "^0.82.4"
