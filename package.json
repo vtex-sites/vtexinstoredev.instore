@@ -26,7 +26,7 @@
     "@vtex/gatsby-instore-plugin-example-2": "^0.0.8",
     "@vtex/gatsby-instore-plugin-example-3": "^0.0.8",
     "@vtex/gatsby-plugin-nginx": "^0.272.0",
-    "@vtexlab/gatsby-theme-instore-core": "^0.0.15-beta.3",
+    "@vtexlab/gatsby-theme-instore-core": "^0.0.15-beta.4",
     "gatsby": "^2.32.2"
   },
   "devDependencies": {
