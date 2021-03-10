@@ -2040,10 +2040,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/gatsby-theme-instore-core@^0.0.15-beta.2":
-  version "0.0.15-beta.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.15-beta.2.tgz#de8f41b10d1efa623d37989d61e5e13357992802"
-  integrity sha512-uxZX0T6xYBD0GBhr0jgH8VYDt2KAU9C6Sphqny0y8d8yJad8hV5tV97kZXbw70ojHNwhLNzhP7Q13F46VRyEmw==
+"@vtexlab/gatsby-theme-instore-core@^0.0.15-beta.3":
+  version "0.0.15-beta.3"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.15-beta.3.tgz#56fd68e6866d4b7459ce5ed80796ba9e71d2309a"
+  integrity sha512-QyY/P5G6v7Gw/gcIHzxYUFCKtX54HziZTyor5Gnn5Qo8BzGeIAHjXn3eNJCE3F2dlTu8FJeqK0/mxciv45+2Nw==
   dependencies:
     "@emotion/react" "^11.1.5"
     "@rehooks/online-status" "^1.1.2"
