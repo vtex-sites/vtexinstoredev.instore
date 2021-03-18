@@ -2089,20 +2089,20 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@vtex/gatsby-instore-plugin-example-2@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example-2/-/gatsby-instore-plugin-example-2-0.0.8.tgz#1181b34023ac5870c91947d049c742a67e852297"
-  integrity sha512-SsEGvQumoclgdvpynlVrHxOSguWHLakKzbiDwpm7A0zOWPN3v1C980CFF/df5dEjcG1OGsKyDA+R5Ya6mGpFyw==
+"@vtex/gatsby-instore-plugin-example-2@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example-2/-/gatsby-instore-plugin-example-2-0.0.9.tgz#342e759a14d06a2d68cf8d31e799721f07fb30ff"
+  integrity sha512-6abIfMvJBPbl7IF6FcV95dgNtXbA+I09QWp/2FnhBF6EBmZSvMC8dhVufcC+lfZTQn1/4GWTOJmGTIsHQHDbHg==
 
-"@vtex/gatsby-instore-plugin-example-3@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example-3/-/gatsby-instore-plugin-example-3-0.0.8.tgz#e66acf97d92bcf86219c899e898c7632b9f147ed"
-  integrity sha512-jCaHEv5KQu8G4nc2x+pso/Uddbb365g1YNBaDkNgn7/uZcOth4tFfiDHx9XhJCqETgCIc13D/w4eyNbPXeYTzg==
+"@vtex/gatsby-instore-plugin-example-3@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example-3/-/gatsby-instore-plugin-example-3-0.0.9.tgz#a7a2737b7bc25b9b338a01d6e6a3e02c65a165d5"
+  integrity sha512-kGtJUmbMAKGNUIa5k/f7F7Qz0dLKDu6LQdxYfZ5MY4ovoYHLgkRwKCs8UbOtG6RMMMBlrHgJsE6KDgGDRY8/7Q==
 
-"@vtex/gatsby-instore-plugin-example@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example/-/gatsby-instore-plugin-example-0.0.8.tgz#f0255b3bfc62b93aeba68b7c5831f6dd3b2d035d"
-  integrity sha512-KwESg1lSlKPBpQFlbOc8p+6fOVEIINCNU35MbHmgFS0oCIQCkzBzn0rpaRyd9il6/BDLU0zUwYps+YRMzwn4jA==
+"@vtex/gatsby-instore-plugin-example@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example/-/gatsby-instore-plugin-example-0.0.9.tgz#fd1459c24aae0394b3d86014de3b7bd9ec802d73"
+  integrity sha512-Xr3toV4qyAW+uEboKRWE7TRzQryFPaCwlyfMXgceAI676hnRa3E5+bcNApV8VLdBjXaw/GrCgGcTR7DbKlBhfQ==
 
 "@vtex/gatsby-plugin-admin-ui@^0.1.1":
   version "0.1.3"
