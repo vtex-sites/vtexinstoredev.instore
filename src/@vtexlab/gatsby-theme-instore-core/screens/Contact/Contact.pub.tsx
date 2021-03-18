@@ -5,19 +5,17 @@ import { Heading, Paragraph, Flex } from '@vtex/admin-ui'
 export const ContactScreen: FC<{ path: string }> = () => {
   return (
     <Fragment>
-      <Heading
-        styleOverrides={{ marginTop: 0, marginBottom: 64, maxWidth: 320 }}
-      >
+      <Heading csx={{ marginTop: 0, marginBottom: 64, maxWidth: 320 }}>
         Contact
       </Heading>
       <Flex
-        styles={{
+        csx={{
           flexDirection: 'column',
           justifyContent: 'space-between',
           alignItems: 'center',
         }}
       >
-        <Paragraph styleOverrides={{ marginBottom: '1rem' }}>
+        <Paragraph csx={{ marginBottom: '1rem' }}>
           VTEXINSTOREDEV contact for this website is actually:
           instoredevs@vtex.com
         </Paragraph>
