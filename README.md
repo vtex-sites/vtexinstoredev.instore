@@ -1,5 +1,7 @@
 # VTEX inStore Dev
 
+This project is to launch the tenant vtexinstoredev using the instore-core gatsby plugins.
+
 ## Setup
 
 ```bash
@@ -34,6 +36,6 @@ yarn test
 
 ## To launch another version
 
-```bash
+```
 Open a PR on this repo (probably updating @vtexlab/gatsby-theme-instore-core version)
 ```
