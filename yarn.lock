@@ -1600,10 +1600,13 @@
     redux-thunk "^2.3.0"
     reselect "^4.0.0"
 
-"@rehooks/online-status@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@rehooks/online-status/-/online-status-1.1.2.tgz#0c11122e0bbe42424ca8f4cc3a2fd290229a7252"
-  integrity sha512-tuz6RtdgqkBMZr82UqTkzPCsHNx6tpEyhTZ5OD8WhDpU4/TLzljBCseuWLlbeQiygbM9F2A4Ea7P+wyjohJXBw==
+"@restart/hooks@^0.3.1":
+  version "0.3.26"
+  resolved "https://registry.yarnpkg.com/@restart/hooks/-/hooks-0.3.26.tgz#ade155a7b0b014ef1073391dda46972c3a14a129"
+  integrity sha512-7Hwk2ZMYm+JLWcb7R9qIXk1OoUg1Z+saKWqZXlrvFwT3w6UArVNWgxYOzf+PJoK9zZejp8okPAKTctthhXLt5g==
+  dependencies:
+    lodash "^4.17.20"
+    lodash-es "^4.17.20"
 
 "@sideway/address@^4.1.0":
   version "4.1.1"
@@ -2165,17 +2168,16 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/gatsby-theme-instore-core@^0.0.18":
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.18.tgz#86345b93fabc783a82be8c2f5aeba8afe2e5e565"
-  integrity sha512-R1XqH0uMUHsjfGAS0W17aPRENEOgK9/EkiJzTmHdugOBPMsUTRqqJaOaIMm8jSF2o1CN5G/Vd0N0yEmdnUAhAw==
+"@vtexlab/gatsby-theme-instore-core@^0.0.19":
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.19.tgz#161530f6f3571b15dffbe421835c8c51198200d0"
+  integrity sha512-+H1FSHupSJeJYLzOpm/W0fipg8ymLnIFaEfIab1ILJU7+PzhaUZDScWsC5aF2fnJ6imesMNPIyV7qTphHq5yRA==
   dependencies:
     "@babel/core" "^7.12.13"
     "@babel/plugin-transform-typescript" "^7.13.0"
     "@babel/preset-env" "^7.12.13"
     "@emotion/react" "^11.1.5"
     "@reduxjs/toolkit" "^1.5.0"
-    "@rehooks/online-status" "^1.1.2"
     "@vtex/admin-ui" "^0.84.2"
     "@vtex/gatsby-plugin-admin-ui" "^0.1.1"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
@@ -2187,18 +2189,22 @@
     gatsby-plugin-offline "^3.10.0"
     graphql-relay "^0.6.0"
     http-proxy-middleware "^1.0.6"
+    http-status-codes "^2.1.4"
     localforage "^1.9.0"
-    react "0.0.0-experimental-8af27aeed"
+    react "0.0.0-experimental-25bfa287f"
     react-cookie "^4.0.3"
-    react-dom "0.0.0-experimental-8af27aeed"
+    react-dom "0.0.0-experimental-25bfa287f"
     react-helmet "^6.1.0"
     react-hook-form "^6.15.4"
     react-no-ssr "^1.1.0"
     react-redux "^7.2.2"
-    react-relay "0.0.0-experimental-4c4107dd"
+    react-relay "^11.0.0"
+    react-relay-network-modern "^6.0.0"
+    react-relay-offline "^3.2.0"
     react-router-dom "^5.2.0"
     redux-persist "^6.0.0"
-    relay-runtime "^10.1.3"
+    relay-hooks "^4.2.0"
+    relay-runtime "^11.0.0"
     swr "^0.5.0"
     use-state-with-callback "^2.0.3"
 
@@ -2346,6 +2352,56 @@
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
+
+"@wora/cache-persist@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@wora/cache-persist/-/cache-persist-2.2.0.tgz#a63dd6a73a1e0575f4dce6c85532ea5a6e75e8a9"
+  integrity sha512-S3p23g74DaaOMUlHx69ZmrRXujgLTY00uloj8o30lnIXZA6mG2mQunyJ7T/RwX7DFx4sBQL23hHtkEVkCP+4RQ==
+  dependencies:
+    idb "^4.0.0"
+
+"@wora/detect-network@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@wora/detect-network/-/detect-network-2.0.0.tgz#4679faf7a8600e22a603bd5fffbbc5216811c6b3"
+  integrity sha512-YEXuy2b/kKLr2KJ4OrfPJn6oADFbjD0vRPhJdC+U2as8QnYpF8IlxrFBzkcfiTolLFb71tB9jwcihFb2xB4mwQ==
+  dependencies:
+    "@wora/netinfo" "^2.0.0"
+
+"@wora/netinfo@^2.0.0", "@wora/netinfo@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@wora/netinfo/-/netinfo-2.1.0.tgz#f639edc155ff7694cc3c75cbb959d97253bc5b3c"
+  integrity sha512-ZcCdlCjsXe9XL1AtYvc+0ers3VfyR2xYlMXAiz1zCFfkbtavwHLyQn3y7UhVDVXTSiIz32AVTlD3ipe+ttzGrA==
+  dependencies:
+    fbjs "^3.0.0"
+
+"@wora/offline-first@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@wora/offline-first/-/offline-first-2.4.0.tgz#35543a3f60be6adb7fec9da7a29167afdbc9e01f"
+  integrity sha512-6OC08VV4NbeQS3sqdkDpHe9GgThNnVZxGoROVByvfRsNB8pX0EMzcvcQc/7p/sSxBuUHzWIYzltOojyv5JnMRQ==
+  dependencies:
+    "@wora/cache-persist" "^2.2.0"
+    "@wora/netinfo" "^2.1.0"
+    fbjs "^3.0.0"
+
+"@wora/relay-offline@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@wora/relay-offline/-/relay-offline-4.1.0.tgz#c408852dd4953e1f62835008744ac2456de024a6"
+  integrity sha512-JMDBg8MZyLObDvbnyTr+ko8ouH4Tf+4gT8kR45jeaBMEkPN69BFUNFp6UN7rCBgNv3X8gTsOl+jknKz+lQMiFQ==
+  dependencies:
+    "@wora/cache-persist" "^2.2.0"
+    "@wora/offline-first" "^2.4.0"
+    "@wora/relay-store" "^4.1.0"
+    fbjs "^3.0.0"
+    tslib "^1.11.1"
+    uuid "3.3.2"
+
+"@wora/relay-store@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@wora/relay-store/-/relay-store-4.1.0.tgz#8e945fb824fc4837bc6493fb08981097517aac36"
+  integrity sha512-w6Vebgh4dlw8yTUe2VKqqzDhTRsx2otz2xnueHMfAC7TOuvFe74j7MzMQlr3/uxuz+yz+tLStpvCS8u5RQ7Ukw==
+  dependencies:
+    "@wora/cache-persist" "^2.2.0"
+    tslib "^1.11.1"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -4111,7 +4167,7 @@ core-js-pure@^3.0.0:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.9.1.tgz#677b322267172bd490e4464696f790cbc355bec5"
   integrity sha512-laz3Zx0avrw9a4QEIdmIblnVuJz8W51leY9iLThatCsFawWxC3sE4guASC78JbCin+DkwMpCdp1AVAuzL/GN7A==
 
-core-js@3.9.1, core-js@^3.6.5:
+core-js@3.9.1, core-js@^3.0.0, core-js@^3.6.5:
   version "3.9.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.9.1.tgz#cec8de593db8eb2a85ffb0dbdeb312cb6e5460ae"
   integrity sha512-gSjRvzkxQc1zjM/5paAmL4idJBFzuJoo+jDjF1tStYFMV2ERfD02HhahhCGXUyHxQRG4yFKVSdO6g62eoRMcDg==
@@ -5778,7 +5834,7 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-extract-files@9.0.0:
+extract-files@9.0.0, extract-files@^9.0.0:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/extract-files/-/extract-files-9.0.0.tgz#8a7744f2437f81f5ed3250ed9f1550de902fe54a"
   integrity sha512-CvdFfHkC95B4bBBk36hcEmvdR2awOdhhVUYH6S/zrVj3477zven/fJMYg7121h4T1xHZC+tetUpubpAhxwI7hQ==
@@ -7381,6 +7437,11 @@ http-proxy@^1.17.0, http-proxy@^1.18.1:
     follow-redirects "^1.0.0"
     requires-port "^1.0.0"
 
+http-status-codes@^2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/http-status-codes/-/http-status-codes-2.1.4.tgz#453d99b4bd9424254c4f6a9a3a03715923052798"
+  integrity sha512-MZVIsLKGVOVE1KEnldppe6Ij+vmemMuApDfjhVSLzyYP+td0bREEYyAoIw9yFePoBXManCuBqmiNP5FqJS5Xkg==
+
 https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
@@ -7430,6 +7491,11 @@ idb-keyval@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/idb-keyval/-/idb-keyval-3.2.0.tgz#cbbf354deb5684b6cdc84376294fc05932845bd6"
   integrity sha512-slx8Q6oywCCSfKgPgL0sEsXtPVnSbTLWpyiDcu6msHOyKOLari1TD1qocXVCft80umnkk3/Qqh3lwoFt8T/BPQ==
+
+idb@^4.0.0:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/idb/-/idb-4.0.5.tgz#23b930fbb0abce391e939c35b7b31a669e74041f"
+  integrity sha512-P+Fk9HT2h1DhXoE1YNK183SY+CRh2GHNh28de94sGwhe0bUA75JJeVJWt3SenE5p0BXK7maflIq29dl6UZHrFw==
 
 ieee754@^1.1.13, ieee754@^1.1.4, ieee754@^1.2.1:
   version "1.2.1"
@@ -8595,6 +8661,11 @@ lock@^1.0.0:
   resolved "https://registry.yarnpkg.com/lock/-/lock-1.1.0.tgz#53157499d1653b136ca66451071fca615703fa55"
   integrity sha1-UxV0mdFlOxNspmRRBx/KYVcD+lU=
 
+lodash-es@^4.17.20:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -9488,7 +9559,7 @@ null-loader@^3.0.0:
     loader-utils "^1.2.3"
     schema-utils "^1.0.0"
 
-nullthrows@^1.1.1:
+nullthrows@^1.1.0, nullthrows@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/nullthrows/-/nullthrows-1.1.1.tgz#7818258843856ae971eae4208ad7d7eb19a431b1"
   integrity sha512-2vPPEi+Z7WqML2jZYddDIfy5Dqb0r2fze2zTxNNknZaFpVHU3mFB3R+DWeJWGVx0ecvttSGlJTI+WG+8Z4cDWw==
@@ -10994,14 +11065,14 @@ react-device-detect@^1.15.0:
   dependencies:
     ua-parser-js "^0.7.23"
 
-react-dom@0.0.0-experimental-8af27aeed:
-  version "0.0.0-experimental-8af27aeed"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.0.0-experimental-8af27aeed.tgz#42707f6165ad2e8aa628f4fc79982ea4c008ce49"
-  integrity sha512-SEi1V174bXDppRl/F1ZxQpP7rgw94FA2F3z0mEMVmn/Gb9e4QUN6znySMTM8rNpYh7/ogr8JTVxmkkwy9ItjSg==
+react-dom@0.0.0-experimental-25bfa287f:
+  version "0.0.0-experimental-25bfa287f"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.0.0-experimental-25bfa287f.tgz#479e13e4026492f4eb94994051ddf2a3a1dab1db"
+  integrity sha512-u+DJ4vY88GxHr0lfRImGno+mG6akal7BbJyiAqcVvku6NYxyNeYNDc3+yYoeJHDIQg5BOoX7mLwcI8i+SEdVYQ==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
-    scheduler "0.0.0-experimental-8af27aeed"
+    scheduler "0.0.0-experimental-25bfa287f"
 
 react-error-overlay@^3.0.0:
   version "3.0.0"
@@ -11080,16 +11151,41 @@ react-refresh@^0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-react-relay@0.0.0-experimental-4c4107dd:
-  version "0.0.0-experimental-4c4107dd"
-  resolved "https://registry.yarnpkg.com/react-relay/-/react-relay-0.0.0-experimental-4c4107dd.tgz#8576b9a2d9b2c321199a9a6c5a4bb7ff1047a733"
-  integrity sha512-P59f5dYEZQOjrigi0oqpYZYewC3ty1uTPqOEfSWgsSXbcJ0h8NNbNvnZ/oaDdAdpeVi85qkMjqcNxTAn6XzZpA==
+react-relay-network-modern@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/react-relay-network-modern/-/react-relay-network-modern-6.0.0.tgz#faa2b6499f3f1d9fdac5af9851b7a851fc36c67b"
+  integrity sha512-Glg9iGK9pV+KXC9Oa3X7H2cjd/6Kg4v6fMBkjMdoQRgV/ct5tAtbOs0xB5k1PHJs6cK+mmidTgVhT8VEfa2NFA==
+  dependencies:
+    core-js "^3.0.0"
+    extract-files "^9.0.0"
+
+react-relay-offline@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-relay-offline/-/react-relay-offline-3.2.0.tgz#1fc2bf7f16b0ecf9ca89ecd5af3213f1c1de1190"
+  integrity sha512-MrBFnhKk4WVus4DI5IXVDvTSS3VYvcjy0vBZsA0STDfczocee77wz7mAXpEUfXhxd0OLfMv3oSfj82ggugA+4Q==
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+    "@wora/cache-persist" "^2.2.0"
+    "@wora/detect-network" "^2.0.0"
+    "@wora/netinfo" "^2.1.0"
+    "@wora/offline-first" "^2.4.0"
+    "@wora/relay-offline" "^4.1.0"
+    "@wora/relay-store" "^4.1.0"
+    fbjs "^3.0.0"
+    nullthrows "^1.1.0"
+    relay-hooks "^4.1.1"
+    tslib "^1.11.1"
+    uuid "3.3.2"
+
+react-relay@^11.0.0:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/react-relay/-/react-relay-11.0.1.tgz#a8c68d79d1ab1393ea30206d84dcb159c67624ed"
+  integrity sha512-LpGaKAgCOZtRWkCTdHXzYYzcC0Ab0Qc2Lnw8OuNsarXc8e0M/vapM+8CDB0oZvSliYRYUGbjWqX6V4VChwXDOQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     fbjs "^3.0.0"
     nullthrows "^1.1.1"
-    relay-runtime "10.1.3"
-    scheduler "^0.19.1"
+    relay-runtime "11.0.1"
 
 react-router-dom@^5.2.0:
   version "5.2.0"
@@ -11125,10 +11221,10 @@ react-side-effect@^2.1.0:
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.1.tgz#66c5701c3e7560ab4822a4ee2742dee215d72eb3"
   integrity sha512-2FoTQzRNTncBVtnzxFOk2mCpcfxQpenBMbk5kSVBg5UcPqV9fRbgY2zhb7GTWWOlpFmAxhClBDlIq8Rsubz1yQ==
 
-react@0.0.0-experimental-8af27aeed:
-  version "0.0.0-experimental-8af27aeed"
-  resolved "https://registry.yarnpkg.com/react/-/react-0.0.0-experimental-8af27aeed.tgz#d8814fffd1949d936d1160add24247da2f5a5fe0"
-  integrity sha512-B0zMH8FEmPnMTMra/2kYoe8La4lr8IFGo7bSvNFSJ7ahCuxlirD1gQ/yabXaQ3cR0NgKIQ7Xjwx32rk9S33tdw==
+react@0.0.0-experimental-25bfa287f:
+  version "0.0.0-experimental-25bfa287f"
+  resolved "https://registry.yarnpkg.com/react/-/react-0.0.0-experimental-25bfa287f.tgz#e6549a32ccc99100bab7e070cabf344ed9ef6eba"
+  integrity sha512-sjK2QiaT/LBxAREiOyNxfg3/63jlsfl7tTNaTFQW3CC5sB5MSgK30r4lrXV+gOhpTeRFxPJkz0EHZr2BReFwNw==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -11388,6 +11484,14 @@ relay-compiler@10.1.0:
     signedsource "^1.0.0"
     yargs "^15.3.1"
 
+relay-hooks@^4.1.1, relay-hooks@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/relay-hooks/-/relay-hooks-4.2.0.tgz#a36ab620276e6af8a3c76d4a2c6d1e266ec1625f"
+  integrity sha512-TqBLysdah2300IRYETyBbgLVM/bXHqG7KP00JqQQDy9DBmJ3XCeZoDxHGlkFOv8MBqBpXXApRarjMH0T63y2aw==
+  dependencies:
+    "@restart/hooks" "^0.3.1"
+    fbjs "^3.0.0"
+
 relay-runtime@10.1.0:
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-10.1.0.tgz#4753bf36e95e8d862cef33608e3d98b4ed730d16"
@@ -11396,10 +11500,10 @@ relay-runtime@10.1.0:
     "@babel/runtime" "^7.0.0"
     fbjs "^3.0.0"
 
-relay-runtime@10.1.3, relay-runtime@^10.1.3:
-  version "10.1.3"
-  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-10.1.3.tgz#1d7bfe590b50cd7f18f6d1c0f20df71fe5bb451a"
-  integrity sha512-NSh4CaRRpUaziK72h4T5uKw6rvHovmS/xD9+czqUYg6yKv22ajwBE6SWmjwTSKnt2NBzIfDjh2C3heo9pLbvtg==
+relay-runtime@11.0.1, relay-runtime@^11.0.0:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-11.0.1.tgz#0816b7a102dc5cea1c778a4c21a4f26bacdffa3e"
+  integrity sha512-ljlFQfs4Q1g5FrjgyXb2TbLbKbsgIuWrFJ9a70kmVDNQdroMzwS+7HqYdI7bGaIW3EpjE8besSkPHPUY6woI3w==
   dependencies:
     "@babel/runtime" "^7.0.0"
     fbjs "^3.0.0"
@@ -11720,18 +11824,10 @@ sax@~1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-scheduler@0.0.0-experimental-8af27aeed:
-  version "0.0.0-experimental-8af27aeed"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.0.0-experimental-8af27aeed.tgz#39e38acd8517e7e35b70c163d6f8fd70ba7601cc"
-  integrity sha512-DSAjFXBOiWLAYdOTWauawPkRI57OTWz5mCI3OleTJJRqPU7hHWp2q4oxL1QPt/eatrNU7gDgdWW5IM3UXYuBSQ==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-
-scheduler@^0.19.1:
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
-  integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
+scheduler@0.0.0-experimental-25bfa287f:
+  version "0.0.0-experimental-25bfa287f"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.0.0-experimental-25bfa287f.tgz#8d6ceb0f02f0813d66b4217903fdb455555ed2d4"
+  integrity sha512-/y69aumEcoiIKYMJkr8mjhIXa6vNn6iA+mQQQMYUGB1bJeZu05XCLIw/Zc2/Nj+F3Ok8zW8XHynhvFaYhpgIgw==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -13016,7 +13112,7 @@ tsconfig-paths@^3.9.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.11.1, tslib@^1.8.1, tslib@^1.9.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
@@ -13479,6 +13575,11 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+
+uuid@3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+  integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
 
 uuid@3.4.0, uuid@^3.0.0, uuid@^3.3.2, uuid@^3.4.0:
   version "3.4.0"
