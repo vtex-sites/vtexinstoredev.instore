@@ -16,7 +16,8 @@ export const ContactScreen: FC<{ path: string }> = () => {
         }}
       >
         <Paragraph csx={{ marginBottom: '1rem' }}>
-          VTEXINSTOREDEV contact for this website is: instoredevs@vtex.com
+          VTEXINSTOREDEV contact for this website is actually:
+          instoredevs@vtex.com
         </Paragraph>
         <img
           src="https://miro.medium.com/max/1980/0*HICLyAdNSIyT0ODU.jpg"
