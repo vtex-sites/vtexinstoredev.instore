@@ -15,5 +15,8 @@ module.exports = {
     {
       resolve: '@vtex/gatsby-instore-plugin-example-3',
     },
+    {
+      resolve: '@vtex/instore-admin-example',
+    },
   ],
 }
