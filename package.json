@@ -7,7 +7,7 @@
   "keywords": [
     "gatsby",
     "instore"
-  ],
+  ], 
   "scripts": {
     "develop": "gatsby develop",
     "start": "yarn develop",
