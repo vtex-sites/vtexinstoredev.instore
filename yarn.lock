@@ -2336,6 +2336,11 @@
     "@types/faker" "^4.1.5"
     faker "^4.1.0"
 
+"@vtex/lighthouse-config@^0.286.1":
+  version "0.286.1"
+  resolved "https://registry.yarnpkg.com/@vtex/lighthouse-config/-/lighthouse-config-0.286.1.tgz#bc2f99e74b2bbbd75bb56b418ca36a94b9f3a84f"
+  integrity sha512-6i6UNfyeHt4O/5EOXw611gCrpDtXmQTSGEdcbEI1gRq96qHujZSgmPs7OHX+a1sw4a0uipD3FCDohD3CGG4yTA==
+
 "@vtex/prettier-config@^0.3.6":
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/@vtex/prettier-config/-/prettier-config-0.3.6.tgz#31762608d9a59b815b6d4e963e439b12f1a12279"
