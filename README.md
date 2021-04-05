@@ -5,6 +5,7 @@ This project is to launch the tenant vtexinstoredev using the instore-core gatsb
 ## Setup
 asdfasdfasdf
 asdfasdf
+asdasdf
 ```bash
 yarn
 ```
