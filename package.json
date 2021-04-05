@@ -7,7 +7,7 @@
   "keywords": [
     "gatsby",
     "instore"
-  ], 
+  ],
   "scripts": {
     "develop": "gatsby develop",
     "start": "yarn develop",
@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@vtex/lighthouse-config": "^0.286.1",
     "@vtex/prettier-config": "^0.3.6",
     "@vtex/tsconfig": "^0.5.6",
     "eslint": "^7.18.0",
