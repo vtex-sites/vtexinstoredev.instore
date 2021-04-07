@@ -1,8 +1,8 @@
 {
-  "name": "base.instore",
+  "name": "vtexinstoredev.instore",
   "version": "1.0.0",
   "private": true,
-  "description": "Base inStore",
+  "description": "vtexinstoredev inStore",
   "author": "Guilherme Bruzzi",
   "keywords": [
     "gatsby",
@@ -27,7 +27,7 @@
     "@vtex/gatsby-instore-plugin-example-3": "^0.0.9",
     "@vtex/gatsby-plugin-nginx": "^0.272.0",
     "@vtex/instore-admin-example": "^0.0.16",
-    "@vtexlab/gatsby-theme-instore-core": "0.0.21",
+    "@vtexlab/gatsby-theme-instore-core": "0.0.22",
     "gatsby": "^2.32.2"
   },
   "devDependencies": {
