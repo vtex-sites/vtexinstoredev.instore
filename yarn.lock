@@ -2351,10 +2351,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/gatsby-theme-instore-core@0.0.22":
-  version "0.0.22"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.22.tgz#740c0afad4230d17de504b22e42922cd2afefc78"
-  integrity sha512-vMqj7qIRhi8J7kQF82p/uRixKGLT0RLmjjdTFNEPTG9qAuJzg2YxKKOlwCOCEFIDy665Tug4/5rvO0odmyZf9Q==
+"@vtexlab/gatsby-theme-instore-core@0.0.23":
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.23.tgz#75069b623196326c12891732a85769883efe688a"
+  integrity sha512-IKofd+i15/HAvP0nLoRTe/y8BxTP7hyu9g5T1IuleCoJulLnVCjIC37+NsjGjDw2vkiGIsq7vBUAADa2mEZ22w==
   dependencies:
     "@babel/core" "^7.12.13"
     "@babel/plugin-transform-typescript" "^7.13.0"
