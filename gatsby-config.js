@@ -1,4 +1,6 @@
-const STORE_ID = 'vtexinstoredev'
+const path = require('path')
+
+const STORE_ID = path.basename(__dirname).replace('.instore', '')
 
 module.exports = {
   plugins: [
