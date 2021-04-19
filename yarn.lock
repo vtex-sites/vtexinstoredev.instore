@@ -2351,10 +2351,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/gatsby-theme-instore-core@^0.0.26-beta.4":
-  version "0.0.26-beta.4"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.26-beta.4.tgz#beca19db6cff3e3c5a0e41de407ee2b69b49d306"
-  integrity sha512-QOP64cC0aX5KA/27G6d4wLnx+DapmeMQz3kgd2cgnrCfJ0R8nebGTdLLQJuM8qkgBFWrbD5W7/Jlm4LwXP3IvQ==
+"@vtexlab/gatsby-theme-instore-core@^0.0.26":
+  version "0.0.26"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.26.tgz#6f1cc33edcc2f5efef2984df61c07e18099f60ab"
+  integrity sha512-UfhpHLEfaxk2dWEK24u/LSI677PmuzWuGz9UcY05FTApONklQ45guBPFeEOSBbAYk7ETJwlQxvkEg+q/9Q0nAw==
   dependencies:
     "@babel/core" "^7.12.13"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -2396,10 +2396,10 @@
     vtex-tachyons "^3.2.2"
     vtex.styleguide "npm:@vtex/styleguide@9.136.2"
 
-"@vtexlab/gatsby-theme-instore-poc@^0.0.26-beta.4":
-  version "0.0.26-beta.4"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-poc/-/gatsby-theme-instore-poc-0.0.26-beta.4.tgz#517cf884c778ecb5fca31b6901df12e5775b4bbc"
-  integrity sha512-T9GEQZWajQeltft/qT80a1lcKbUTchMm97wOGQaF5A/6lZe7NG9S3obSJDx3NkpvWdoII1ynAmHQlnOM1COnFg==
+"@vtexlab/gatsby-theme-instore-poc@^0.0.26":
+  version "0.0.26"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-poc/-/gatsby-theme-instore-poc-0.0.26.tgz#ed54ca5a308d7448160735006e04a5ed9313b7a3"
+  integrity sha512-FPw1SaGz1SXVstIHtS7eAo9TRQS9VlE/53ui7BQGVIooPJp/jzHshAFPk1VY12ivFm6TrKXcfl5bBznBUZgAvg==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
