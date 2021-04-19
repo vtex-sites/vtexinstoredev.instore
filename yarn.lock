@@ -2351,10 +2351,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/gatsby-theme-instore-core@^0.0.26":
-  version "0.0.26"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.26.tgz#6f1cc33edcc2f5efef2984df61c07e18099f60ab"
-  integrity sha512-UfhpHLEfaxk2dWEK24u/LSI677PmuzWuGz9UcY05FTApONklQ45guBPFeEOSBbAYk7ETJwlQxvkEg+q/9Q0nAw==
+"@vtexlab/gatsby-theme-instore-core@0.0.28-beta.0":
+  version "0.0.28-beta.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.28-beta.0.tgz#ff1eabe660976cb2ddba024ec14f42c9fc5538a5"
+  integrity sha512-x/tbeb1V/Zxfps/n+SZ0eAoyQVeaI3Wy1cFEp08M/qnEbRWfJrfgTmbByWkDzd2atEHhDA3NDHftZAlA+Q4rFA==
   dependencies:
     "@babel/core" "^7.12.13"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -2389,7 +2389,7 @@
     recharts "^2.0.0-beta.1"
     redux-persist "^6.0.0"
     relay-hooks "^4.2.0"
-    relay-runtime "^11.0.0"
+    relay-runtime "11.0.0"
     swr "^0.5.0"
     use-state-with-callback "^2.0.3"
     uuid "^8.3.2"
@@ -12312,7 +12312,15 @@ relay-runtime@10.1.0:
     "@babel/runtime" "^7.0.0"
     fbjs "^3.0.0"
 
-relay-runtime@11.0.1, relay-runtime@^11.0.0:
+relay-runtime@11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-11.0.0.tgz#cb3244dc4e2919a51fdcbedddd5d13a20cf393e8"
+  integrity sha512-7oeyW4hulyK3p4eB63Rsllo/es83xflCAt2HMWCpH2q0fi21iJBR02kK3wCPM/yFwi3i0K83W+UksLFQdE0CaQ==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    fbjs "^3.0.0"
+
+relay-runtime@11.0.1:
   version "11.0.1"
   resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-11.0.1.tgz#0816b7a102dc5cea1c778a4c21a4f26bacdffa3e"
   integrity sha512-ljlFQfs4Q1g5FrjgyXb2TbLbKbsgIuWrFJ9a70kmVDNQdroMzwS+7HqYdI7bGaIW3EpjE8besSkPHPUY6woI3w==
