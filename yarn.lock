@@ -2417,10 +2417,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/gatsby-theme-instore-core@^0.0.28-beta.0":
-  version "0.0.28-beta.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.28-beta.0.tgz#ff1eabe660976cb2ddba024ec14f42c9fc5538a5"
-  integrity sha512-x/tbeb1V/Zxfps/n+SZ0eAoyQVeaI3Wy1cFEp08M/qnEbRWfJrfgTmbByWkDzd2atEHhDA3NDHftZAlA+Q4rFA==
+"@vtexlab/gatsby-theme-instore-core@0.0.28-beta.2":
+  version "0.0.28-beta.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.0.28-beta.2.tgz#494b3146f29e9cf25c2f40b3e8376a7832608975"
+  integrity sha512-U8RRx969lLMc5hiGs+eB9PbT4ktK5dtxepl0J/af0J49z1Bli4dRQd/wvREueUlO3TTl1NEwRcwJL8xfG2vyEg==
   dependencies:
     "@babel/core" "^7.12.13"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -2460,7 +2460,7 @@
     use-state-with-callback "^2.0.3"
     uuid "^8.3.2"
     vtex-tachyons "^3.2.2"
-    vtex.styleguide "npm:@vtex/styleguide@9.136.2"
+    vtex.styleguide "npm:@vtex/styleguide@9.138.3"
 
 "@vtexlab/gatsby-theme-instore-poc@^0.0.26":
   version "0.0.26"
@@ -15118,13 +15118,14 @@ vtex-tachyons@^3.2.0, vtex-tachyons@^3.2.2:
   resolved "https://registry.yarnpkg.com/vtex-tachyons/-/vtex-tachyons-3.2.2.tgz#e9e39d939778ef7d80a92c476cecf7417f79a6e8"
   integrity sha512-4M53uuvV+2XEjplVYiPgpBuaI5dtGksVgz/20NNjbZkXklJM7Lwgod/hOoh3PtIn36+95zZVVgXYfs3e6EU8YA==
 
-"vtex.styleguide@npm:@vtex/styleguide@9.136.2":
-  version "9.136.2"
-  resolved "https://registry.yarnpkg.com/@vtex/styleguide/-/styleguide-9.136.2.tgz#d0b00cc046d80cba8e9d24781c485065a37bbda7"
-  integrity sha512-M5GInhrZ2L1GjdKWdDudx8sm+wFSmTmi0NP4rdniLis5KvhsWYSNx0UTHs2j3CKoDss9CHlqnRSIwrODKnywnw==
+"vtex.styleguide@npm:@vtex/styleguide@9.138.3":
+  version "9.138.3"
+  resolved "https://registry.yarnpkg.com/@vtex/styleguide/-/styleguide-9.138.3.tgz#55d7b3f2cada5204244ec1b19595718e7bdb2559"
+  integrity sha512-6Dx5kNqZK0Zqh+Mdtk2lN6RAa1+gGgcldrR2X5HKu6LpdPgniVqr2Qx5PoR34pIWE8lj/gqv7VKsHpN/FCQnjw==
   dependencies:
     autoprefixer "^9.6.1"
     case-sensitive-paths-webpack-plugin "^2.2.0"
+    date-fns "^2.0.1"
     focus-visible "^4.1.5"
     fromentries "^1.1.0"
     react-color "^2.17.0"
