@@ -20,7 +20,7 @@
     "lint:eslint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:eslint-fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix --max-warnings 0",
     "lint:prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,gql,json,yml,md}\"",
-    "cypress": "cypress open"
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@vtex/gatsby-instore-plugin-example": "^0.0.11",
@@ -28,8 +28,8 @@
     "@vtex/gatsby-instore-plugin-example-3": "^0.0.11",
     "@vtex/gatsby-plugin-nginx": "^0.272.0",
     "@vtex/instore-admin-example": "^0.0.16",
-    "@vtexlab/gatsby-theme-instore-core": "0.0.28-beta.2",
-    "@vtexlab/gatsby-theme-instore-poc": "^0.0.26",
+    "@vtexlab/gatsby-theme-instore-core": "0.0.28",
+    "@vtexlab/gatsby-theme-instore-poc": "0.0.28",
     "gatsby": "^2.32.2"
   },
   "devDependencies": {
