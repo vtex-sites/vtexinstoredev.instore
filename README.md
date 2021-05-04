@@ -2,6 +2,8 @@
 
 This project is to launch the tenant vtexinstoredev using the instore-core gatsby plugins.
 
+Change README.
+
 ## Setup
 
 ```bash
