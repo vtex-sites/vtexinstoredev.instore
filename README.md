@@ -1,6 +1,6 @@
 # VTEX inStore Dev
 
-This project is to launch the tenant vtexinstoredev using the instore-core gatsby plugins.
+This project is to launch the tenant vtexinstoredev using the instore-core Gatsby plugins.
 
 ## Setup
 
