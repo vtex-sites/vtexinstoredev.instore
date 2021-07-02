@@ -3542,10 +3542,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@2.126.4-beta.npm.17":
-  version "2.126.4-beta.npm.17"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.126.4-beta.npm.17.tgz#b46de2b33bcd21b125ec5f74d49d89f42620b657"
-  integrity sha512-qlw5aGQ0XFG/bh5hec/0SPUaZ8yCPdXGUWDPS17rMfFBh7zfpj/I7ui4Oskcyr/NNkMyBonRuRjqO9c82IsALw==
+"@vtexlab/checkout-instore@2.127.1-beta.npm.1":
+  version "2.127.1-beta.npm.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.127.1-beta.npm.1.tgz#2a143267c3fff9bb61acb3fd0527e26844c5c3aa"
+  integrity sha512-i81QIy2sM/QdtsfR3VaEEhZQeGEbRdSHWDpPkDHsbGwW32enx2Zi5Ex9oQjH/Q6VILIQUGKQCO0y6DaC5aIyzg==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -3623,10 +3623,10 @@
     vtex-tachyons "^3.2.2"
     whatwg-fetch "2.0.4"
 
-"@vtexlab/gatsby-theme-instore-core@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.1.1.tgz#4a4144cabac7069430cf669a1522fad5d25d1d26"
-  integrity sha512-WV6zuaz8Dv0knyWd1lkPjx2df4jZzp/1xs3BMsvrXlq7V1q8uaGW1s7zMR3asiB4hT+8vHpm74x/HaJ0FnxElQ==
+"@vtexlab/gatsby-theme-instore-core@0.1.2-beta.0":
+  version "0.1.2-beta.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.1.2-beta.0.tgz#0829bbbdbdef2f9351cd31c0cad5980ac46d0f11"
+  integrity sha512-BDYXMXXWma+4DJNAcwry7OqZmR5SRxmh+LcEQr3CLDEqyvJWdZNugglPWJChzIzqBdk7BJ1Y/9UWl9CnYLvVVQ==
   dependencies:
     "@babel/core" "^7.12.13"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3637,7 +3637,7 @@
     "@vtex/gatsby-plugin-admin-ui" "^0.2.18"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/gatsby-plugin-nginx" "^0.368.1"
-    "@vtexlab/checkout-instore" "2.126.4-beta.npm.17"
+    "@vtexlab/checkout-instore" "2.127.1-beta.npm.1"
     babel-plugin-relay "^10.1.3"
     buffer "^6.0.3"
     connected-react-router "^6.9.1"
@@ -14470,6 +14470,7 @@ react-input-autosize@^2.2.1:
     prop-types "^15.5.8"
 
 "react-intl-legacy@npm:react-intl@2.9.0", react-intl@^2.7.2:
+  name react-intl-legacy
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.9.0.tgz#c97c5d17d4718f1575fdbd5a769f96018a3b1843"
   integrity sha512-27jnDlb/d2A7mSJwrbOBnUgD+rPep+abmoJE511Tf8BnoONIAUehy/U1zZCHGO17mnOwMWxqN4qC0nW11cD6rA==
