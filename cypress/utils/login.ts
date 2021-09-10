@@ -7,7 +7,7 @@ export function loginWithRobot(
 ) {
   cy.get('[data-testId=login-email]').type(login)
   cy.get('[data-testId=login-password]').type(password)
-  cy.contains('Confirm').click()
+  cy.contains('Login').click()
 
   cy.url({ timeout: 10000 }).should(
     'eq',
