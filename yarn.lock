@@ -2306,6 +2306,13 @@
   dependencies:
     "@emotion/memoize" "0.7.4"
 
+"@emotion/is-prop-valid@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-1.1.0.tgz#29ef6be1e946fb4739f9707def860f316f668cde"
+  integrity sha512-9RkilvXAufQHsSsjQ3PIzSns+pxuX4EW8EbGeSPjZMHuMx6z/MOzb9LpqNieQX4F3mre3NWS2+X3JNRHTQztUQ==
+  dependencies:
+    "@emotion/memoize" "^0.7.4"
+
 "@emotion/memoize@0.7.4":
   version "0.7.4"
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.4.tgz#19bf0f5af19149111c40d98bb0cf82119f5d9eeb"
@@ -3823,83 +3830,73 @@
     recompose "^0.27.1"
     splunk-events "1.6.0"
 
-"@vtex/admin-core@^0.10.1":
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-core/-/admin-core-0.10.1.tgz#92ff5f6cee3f8ce01fe5db7bb26524e0d6b2df6e"
-  integrity sha512-szJ0uK8lEwc7owEK6TtqKHBzwmRYmZgOQGVnRpeqPgWEn1NyiSkKGNQqH6Qr/0kzna3tSVN4TNDMkAqqwgyj0Q==
+"@vtex/admin-illustrations@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@vtex/admin-illustrations/-/admin-illustrations-0.1.2.tgz#811835fc38f0e419eb1bd05528ef7b26f5b8df2d"
+  integrity sha512-ObzFbOh3Gn3919Z/OsZ3Y4LsA5/IUjYQdvFmlL6IKs4+x5VOtnBUV1nm/o+TN5A7k4MfeKCWvFuZk89VBnpJHA==
+
+"@vtex/admin-ui-core@^0.1.2-next.0":
+  version "0.1.2-next.0"
+  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-core/-/admin-ui-core-0.1.2-next.0.tgz#9cd7b4a559a04af55e51768c36dedc968d49938c"
+  integrity sha512-CUsDU+NHQe0H7ALOzcyJZFzaW5wngcIwmZTKq2RZwrRJaHCYbSYVde5WCYEcERooyFgLTaVDg3dTiUiiL8Tp2g==
   dependencies:
-    "@vtex/admin-ui-system" "^0.15.0"
-    "@vtex/admin-ui-theme" "^0.23.0"
+    "@vtex/admin-ui-util" "^0.1.1"
+    csstype "^3.0.5"
     deepmerge "^4.2.2"
     focus-visible "^5.1.0"
     react-helmet "6.1.0"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@vtex/admin-jsxs@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-jsxs/-/admin-jsxs-0.1.1.tgz#5c5140725759848054c8899d8a7385e0953b492a"
-  integrity sha512-KANFcuhgm7jtGRed9BtMTutbrzRPnE+jb+lbEhLhDihwieK1DyK6MXm12rNwEGYTy/TxHJGA/d0SVOI0L6/zsw==
+"@vtex/admin-ui-hooks@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-hooks/-/admin-ui-hooks-0.1.2.tgz#6011322c888b4abd2f89207d49779f9d2a8ef987"
+  integrity sha512-aT071MYZqDi07yiv1T7eXGCeu0POAKT3kODrc60cjA7wYYncxGU3Xt0tqstsI4FutQB15aBWToQMcz3uSTltkg==
   dependencies:
+    "@vtex/admin-ui-util" "^0.1.1"
+    use-debounce "^7.0.0"
+
+"@vtex/admin-ui-icons@^0.13.2-next.0":
+  version "0.13.2-next.0"
+  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-icons/-/admin-ui-icons-0.13.2-next.0.tgz#0cb5f96390c2fd4f18e4c66517f0628c95f3be8c"
+  integrity sha512-m2zWKiTVSvg/QXCVswEWsp9XJyvz08vZ70wIY7FGaWE7mhjKOj3iggs2X/8y+sGIh2pVKZ7OIt2YY3T51KHCbQ==
+  dependencies:
+    "@vtex/admin-ui-core" "^0.1.2-next.0"
+
+"@vtex/admin-ui-react@^0.2.1-next.0":
+  version "0.2.1-next.0"
+  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-react/-/admin-ui-react-0.2.1-next.0.tgz#0dc3fbbde80e42b2a214b1bf7e6df5763e53459c"
+  integrity sha512-xgcHGxdH6leDDPMwbYbpBOjREZsRVgBMjQvWaLmA+Bv0PhkB/IUQODdZzojla+A5gNJUym7l5ulzh9d/3aMWTA==
+  dependencies:
+    "@emotion/is-prop-valid" "^1.1.0"
+    "@vtex/admin-ui-util" "^0.1.1"
+    react-is "^17.0.2"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@vtex/admin-primitives@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-primitives/-/admin-primitives-0.3.1.tgz#fefea07ba2da4cc46dcbbb73c372fdafb7a00390"
-  integrity sha512-xiXMx951yTyLTcuVXttmT3YqYD48bNUy+PfiQ5bZWkRSWtE4O2FzS12YnnhF+1RYzhCwJ397EiU0VFN46imKsg==
-
-"@vtex/admin-styles@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-styles/-/admin-styles-0.2.0.tgz#c6381e566f3991e759009ab2544c6fbdd82ca7b7"
-  integrity sha512-uoNl4cTT90Ir9FzpBv7fB3ZmBcsA9QpgDyhNksTVUkCiNYOwYNbFMlmwYPEEaWE3Vn4WWsRgeY1jW3clUVUCKw==
+"@vtex/admin-ui-util@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-util/-/admin-ui-util-0.1.1.tgz#a9c9d13b7374dc38b93a496eaddec06144385553"
+  integrity sha512-OHDXP9F49nstJTddXVoXYznXK+v7RXc2AKCr9EtkjOyLVtxxQU/jZpFuQHBKNEhSx0IXXpeEmo44utIk/UHhlw==
   dependencies:
-    csstype "^3.0.5"
     lodash.get "^4.4.2"
     lodash.merge "^4.6.2"
-    tiny-warning "^1.0.3"
-
-"@vtex/admin-ui-icons@^0.10.1":
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-icons/-/admin-ui-icons-0.10.1.tgz#7f7c7f913032a53f435410c72ee2bb62c7c7d5d1"
-  integrity sha512-UO/tibrovO85LfCM9N4DYz8qmdOMfRk8xkNPfDooE5Yhncof4xGErWYNZkwxPMKd9+rBMgzkn8aj8nGVA4S1QA==
-  dependencies:
-    "@vtex/admin-core" "^0.10.1"
-
-"@vtex/admin-ui-system@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-system/-/admin-ui-system-0.15.0.tgz#193a87ff277bab62de60d691f6f5b3f36dcda338"
-  integrity sha512-7atrOOj2o//RZduaqHaAqmsxsjboGnXj3p9p2C2l4Z9xqSnNcv5Q/oa6JSWwTOT7tKBT5eEvj31Z9uE1ckc+Sw==
-  dependencies:
-    "@vtex/admin-jsxs" "^0.1.1"
-    "@vtex/admin-styles" "^0.2.0"
-    csstype "^3.0.5"
-    deepmerge "^4.2.2"
-    focus-visible "^5.1.0"
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
-    polished "^4.0.5"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
 
-"@vtex/admin-ui-theme@^0.23.0":
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-theme/-/admin-ui-theme-0.23.0.tgz#a715712b619498c894b3c7be9ff3bda08118cb75"
-  integrity sha512-GqkWoVm/HdkitGdp8dAirU12S8Ks1f9btG+9g82W91ikKGfWde2O9kb/nGRTQsZbfH5utqW+QnSDFg7Z4FMQmg==
-  dependencies:
-    polished "^4.0.3"
-
-"@vtex/admin-ui@0.87.0":
-  version "0.87.0"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui/-/admin-ui-0.87.0.tgz#54981982f4ecec6533ad1247e24ca356ba566498"
-  integrity sha512-bOPy1bu7Dh/vnjaBTCCdCRVC1xqMgwcwyz2OsepFxLmkWGvIGQHWZoffhe0sURS1ytFhWWVX7h7wA8mJwZ4uBA==
+"@vtex/admin-ui@0.112.4-next.0":
+  version "0.112.4-next.0"
+  resolved "https://registry.yarnpkg.com/@vtex/admin-ui/-/admin-ui-0.112.4-next.0.tgz#01a7342875d384bb67e4bb0e410d2b8cdcd1fb80"
+  integrity sha512-PLV16M7LwW1Af1zkTc4gR0SpSorO1wxzD3hyF7i8z+DHanveKk3+Xes+ws+WHw82NFty0ddNwLz+57bFWa/MtQ==
   dependencies:
     "@emotion/babel-plugin" "^11.2.0"
     "@emotion/css" "^11.1.3"
     "@emotion/react" "^11.1.5"
-    "@vtex/admin-core" "^0.10.1"
-    "@vtex/admin-primitives" "^0.3.1"
-    "@vtex/admin-ui-icons" "^0.10.1"
+    "@vtex/admin-illustrations" "^0.1.2"
+    "@vtex/admin-ui-core" "^0.1.2-next.0"
+    "@vtex/admin-ui-hooks" "^0.1.2"
+    "@vtex/admin-ui-icons" "^0.13.2-next.0"
+    "@vtex/admin-ui-react" "^0.2.1-next.0"
     csstype "^3.0.5"
     deepmerge "^4.2.2"
     downshift "^6.0.6"
@@ -3912,6 +3909,7 @@
     reakit-utils "^0.14.3"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
+    use-debounce "^7.0.0"
 
 "@vtex/axios-concurrent-retry@^4.0.10":
   version "4.0.11"
@@ -3977,6 +3975,11 @@
   version "0.0.11"
   resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example/-/gatsby-instore-plugin-example-0.0.11.tgz#14b311b2c6d7fe5d4a0db54b72078ca5f9cb9cef"
   integrity sha512-Lb2cgRxjFuZDOAiHPrtW9z9CPnlbxUR/EUCdN2yPVaZdVG4+cZLSzLw4p0t9ftymu24BzIWIOXwlJp7BNbInlA==
+
+"@vtex/gatsby-plugin-admin-ui@0.3.6-next.0":
+  version "0.3.6-next.0"
+  resolved "https://registry.yarnpkg.com/@vtex/gatsby-plugin-admin-ui/-/gatsby-plugin-admin-ui-0.3.6-next.0.tgz#dcd354cf890ceb859d4944bc01f8323bd3dfcf80"
+  integrity sha512-Q5p0sln3ZpikOtegwKtgd5p/YSmI2lmNG5/wFSb9hY+/GbzYEIuxKnUU6i5va50NuFVSo6BL5DMOQ0l7xR/Gwg==
 
 "@vtex/gatsby-plugin-admin-ui@^0.2.18":
   version "0.2.23"
@@ -4127,10 +4130,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@^2.140.2":
-  version "2.140.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.140.2.tgz#0d741c459e1329cb8a0ad05bd6dd01b6f7660ea7"
-  integrity sha512-WPJomfcjRTr/uDIs4mQ3hKo+nvdsD9otvFXrg8T6Zh8IiEnM3xoKlr9OudsbYkzpt+wSloic5roCPAjvkgd7kQ==
+"@vtexlab/checkout-instore@2.140.13":
+  version "2.140.13"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.140.13.tgz#21b3dbbfaced8d2d88a973a0157471d65e03c7e6"
+  integrity sha512-/AfKM2rxUYPCfQXxKHyWYYqz4shsqkktFlrZR44DGcHnbyDHvl9ulKpB9rjungkNaGC4ihw4aOUIWsXI4/A7VQ==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -4211,10 +4214,10 @@
     vtex-tachyons "^3.2.2"
     whatwg-fetch "2.0.4"
 
-"@vtexlab/gatsby-theme-instore-core@0.2.3-beta.1":
-  version "0.2.3-beta.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.2.3-beta.1.tgz#e144e0c520a6fa8c3af7b433474a7654ce17e8fb"
-  integrity sha512-GteM16oxAuQfK7/1ycJfPTCYSY7MXPt/MFBmPootCFdLhi0HM9SdJQ7tdINfukkMJD31/VT9xXysKd1Kz0iTpQ==
+"@vtexlab/gatsby-theme-instore-core@0.3.0-beta.1":
+  version "0.3.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.3.0-beta.1.tgz#9850086d5e9af228f5cc6176f4338d558f4d8b82"
+  integrity sha512-+MJO1BFkFIPnIi9Zlpzmmo+0g1uyFHuGiXAfbYpT2u5Cstycwq3zAtNFlBMGgyMzd8gN4XcXwZEVlRf5TRq4lA==
   dependencies:
     "@babel/core" "^7.12.13"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4222,11 +4225,11 @@
     "@emotion/react" "^11.1.5"
     "@reduxjs/toolkit" "^1.5.0"
     "@svgr/webpack" "^5.5.0"
-    "@vtex/admin-ui" "0.87.0"
-    "@vtex/gatsby-plugin-admin-ui" "^0.2.18"
+    "@vtex/admin-ui" "0.112.4-next.0"
+    "@vtex/gatsby-plugin-admin-ui" "0.3.6-next.0"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/gatsby-plugin-nginx" "^0.372.17"
-    "@vtexlab/checkout-instore" "^2.140.2"
+    "@vtexlab/checkout-instore" "2.140.13"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
     browserify-zlib "^0.2.0"
@@ -14360,13 +14363,6 @@ polished@^3.6.7:
   dependencies:
     "@babel/runtime" "^7.12.5"
 
-polished@^4.0.3, polished@^4.0.5:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/polished/-/polished-4.1.1.tgz#40442cc973348e466f2918cdf647531bb6c29bfb"
-  integrity sha512-4MZTrfPMPRLD7ac8b+2JZxei58zw6N1hFkdBDERif5Tlj19y3vPoPusrLG+mJIlPTGnUlKw3+yWz0BazvMx1vg==
-  dependencies:
-    "@babel/runtime" "^7.12.5"
-
 popmotion@9.0.0-rc.20:
   version "9.0.0-rc.20"
   resolved "https://registry.yarnpkg.com/popmotion/-/popmotion-9.0.0-rc.20.tgz#f3550042ae31957b5416793ae8723200951ad39d"
@@ -15442,6 +15438,11 @@ react-is@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
+
+react-is@^17.0.2:
+  version "17.0.2"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
+  integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
 react-jss@^8.1.0:
   version "8.6.1"
@@ -18504,6 +18505,11 @@ use-context-selector@^1.3.7:
   version "1.3.7"
   resolved "https://registry.yarnpkg.com/use-context-selector/-/use-context-selector-1.3.7.tgz#4e59270baa73417dcb0c5c6c124359fd0e8b3aaf"
   integrity sha512-O94hcN9UDAPTC4Fsm3p6Og5PVlhTEeKqxJX3HuBbVSuevOSPLDZxowFUmx49/fnu9jpgY83Nd3TALJVDRtYzdQ==
+
+use-debounce@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/use-debounce/-/use-debounce-7.0.0.tgz#00a67d23d4fe09905e11145a99278da06c01c880"
+  integrity sha512-4fvxEEs7ztdNMh+c497HAgysdq2+Ascem6EaDANGlCIap1JzqfL03Xw8xkYc2lShfXm4uO6PA6V5zcXN7gJdFA==
 
 use-media@^1.4.0:
   version "1.4.0"
