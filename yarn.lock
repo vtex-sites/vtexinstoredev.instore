@@ -3835,19 +3835,6 @@
   resolved "https://registry.yarnpkg.com/@vtex/admin-illustrations/-/admin-illustrations-0.1.2.tgz#811835fc38f0e419eb1bd05528ef7b26f5b8df2d"
   integrity sha512-ObzFbOh3Gn3919Z/OsZ3Y4LsA5/IUjYQdvFmlL6IKs4+x5VOtnBUV1nm/o+TN5A7k4MfeKCWvFuZk89VBnpJHA==
 
-"@vtex/admin-ui-core@^0.1.2-next.0":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-core/-/admin-ui-core-0.1.2.tgz#e924bbf237f61518f9709713d85bb904f61edf33"
-  integrity sha512-Zsr/cKawBq2xHmNf9zQ3D0nF68a/yJl+q4ep47FBlYwY9uGeEYZu2JgIhPiIDKyVQBnT9l13kwHSSqdRf/g2wg==
-  dependencies:
-    "@vtex/admin-ui-util" "^0.1.1"
-    csstype "^3.0.5"
-    deepmerge "^4.2.2"
-    focus-visible "^5.1.0"
-    react-helmet "6.1.0"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-
 "@vtex/admin-ui-core@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@vtex/admin-ui-core/-/admin-ui-core-0.2.0.tgz#4a7b72d0a73e20ecf2b8e8bfb66c74ec7aa2c2a7"
@@ -3869,14 +3856,14 @@
     "@vtex/admin-ui-util" "^0.1.1"
     use-debounce "^7.0.0"
 
-"@vtex/admin-ui-icons@^0.13.2-next.0":
+"@vtex/admin-ui-icons@^0.13.3":
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/@vtex/admin-ui-icons/-/admin-ui-icons-0.13.3.tgz#2e6723896e9911b5ad00711d681037a67987117f"
   integrity sha512-H4kUZZDO99PugODOwmgRTg/tt/fp+DsJEaXsELRKEUMOLdT8fuDniwl9Y2tA9lIqxU5qZS5yCWz5epoxXN+6KA==
   dependencies:
     "@vtex/admin-ui-core" "^0.2.0"
 
-"@vtex/admin-ui-react@^0.2.1-next.0":
+"@vtex/admin-ui-react@^0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@vtex/admin-ui-react/-/admin-ui-react-0.2.2.tgz#0a7b9c15b38b35a903cee97270e13e47f9928985"
   integrity sha512-EHlevifTwKxJnoqMqnd+Jw51qv3oUTOJaVWnp7l3+j5jVo2yKyC0BNqSaxc0+SAvmNOzSa4eEHFrfXIH/DEohQ==
@@ -3897,19 +3884,19 @@
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
 
-"@vtex/admin-ui@0.112.4-next.0":
-  version "0.112.4-next.0"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui/-/admin-ui-0.112.4-next.0.tgz#01a7342875d384bb67e4bb0e410d2b8cdcd1fb80"
-  integrity sha512-PLV16M7LwW1Af1zkTc4gR0SpSorO1wxzD3hyF7i8z+DHanveKk3+Xes+ws+WHw82NFty0ddNwLz+57bFWa/MtQ==
+"@vtex/admin-ui@^0.114.0":
+  version "0.114.0"
+  resolved "https://registry.yarnpkg.com/@vtex/admin-ui/-/admin-ui-0.114.0.tgz#7cfd9e66c4efc65cbfe21c39922743178f42512f"
+  integrity sha512-8nt7RZMd7dMTHJZoRbGyVAVBLT3bR2Mr4TL6DfxavpuhMZTdDzSlQo+MOoEwZJF17pj2DmM7zcAsp5xPiXXidw==
   dependencies:
     "@emotion/babel-plugin" "^11.2.0"
     "@emotion/css" "^11.1.3"
     "@emotion/react" "^11.1.5"
     "@vtex/admin-illustrations" "^0.1.2"
-    "@vtex/admin-ui-core" "^0.1.2-next.0"
+    "@vtex/admin-ui-core" "^0.2.0"
     "@vtex/admin-ui-hooks" "^0.1.2"
-    "@vtex/admin-ui-icons" "^0.13.2-next.0"
-    "@vtex/admin-ui-react" "^0.2.1-next.0"
+    "@vtex/admin-ui-icons" "^0.13.3"
+    "@vtex/admin-ui-react" "^0.2.2"
     csstype "^3.0.5"
     deepmerge "^4.2.2"
     downshift "^6.0.6"
@@ -3989,15 +3976,15 @@
   resolved "https://registry.yarnpkg.com/@vtex/gatsby-instore-plugin-example/-/gatsby-instore-plugin-example-0.0.11.tgz#14b311b2c6d7fe5d4a0db54b72078ca5f9cb9cef"
   integrity sha512-Lb2cgRxjFuZDOAiHPrtW9z9CPnlbxUR/EUCdN2yPVaZdVG4+cZLSzLw4p0t9ftymu24BzIWIOXwlJp7BNbInlA==
 
-"@vtex/gatsby-plugin-admin-ui@0.3.6-next.0":
-  version "0.3.6-next.0"
-  resolved "https://registry.yarnpkg.com/@vtex/gatsby-plugin-admin-ui/-/gatsby-plugin-admin-ui-0.3.6-next.0.tgz#dcd354cf890ceb859d4944bc01f8323bd3dfcf80"
-  integrity sha512-Q5p0sln3ZpikOtegwKtgd5p/YSmI2lmNG5/wFSb9hY+/GbzYEIuxKnUU6i5va50NuFVSo6BL5DMOQ0l7xR/Gwg==
-
 "@vtex/gatsby-plugin-admin-ui@^0.2.18":
   version "0.2.23"
   resolved "https://registry.yarnpkg.com/@vtex/gatsby-plugin-admin-ui/-/gatsby-plugin-admin-ui-0.2.23.tgz#f5484ace81f59f4af1808a3eec4cf01cfc2e1038"
   integrity sha512-RMoaTlm+I8NT8hTJ4SnTpU5W5bL0THBmw11uPKcjCqrvZKb3kZn8iD3CvWRG+qVFwpCIaZnAvu72PUDTV1IsiA==
+
+"@vtex/gatsby-plugin-admin-ui@^0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@vtex/gatsby-plugin-admin-ui/-/gatsby-plugin-admin-ui-0.3.7.tgz#23e1fd93e7863acf64f597bb9fc09d8b560fadd4"
+  integrity sha512-YNSj5kQ9hL55KzjBSWv6weQutccjR+e3BYTctxEMY5O9fcn+8xHLBTqmEBhnAD35GiP/bCN5S8WXsU8frUxwIg==
 
 "@vtex/gatsby-plugin-graphql@^0.277.2":
   version "0.277.2"
@@ -4227,10 +4214,10 @@
     vtex-tachyons "^3.2.2"
     whatwg-fetch "2.0.4"
 
-"@vtexlab/gatsby-theme-instore-core@0.3.4":
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.3.4.tgz#31a849b7526fbb9dfc7479ed04770886986c8061"
-  integrity sha512-rFDN90vg8AybRm6CcQoN4sU5v+RAODWlr+Vbuh69nhSnoRjopYzfqm93kmIqjKbwQPJxaB3l2UO3NxfCY9/zZQ==
+"@vtexlab/gatsby-theme-instore-core@0.3.5-beta.0":
+  version "0.3.5-beta.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.3.5-beta.0.tgz#39ce8de63d8447a53cba549671480a3da8737bea"
+  integrity sha512-X/IU6n/7bLHR8GSdmxJ1XfERrAVWK2eAhxALi9MHA0uzVQas98Lss0bGDDsumHneznz/RGi26USneJD9BmgpZw==
   dependencies:
     "@babel/core" "^7.12.13"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4238,8 +4225,8 @@
     "@emotion/react" "^11.1.5"
     "@reduxjs/toolkit" "^1.5.0"
     "@svgr/webpack" "^5.5.0"
-    "@vtex/admin-ui" "0.112.4-next.0"
-    "@vtex/gatsby-plugin-admin-ui" "0.3.6-next.0"
+    "@vtex/admin-ui" "^0.114.0"
+    "@vtex/gatsby-plugin-admin-ui" "^0.3.7"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/gatsby-plugin-nginx" "^0.372.17"
     "@vtexlab/checkout-instore" "2.140.13"
