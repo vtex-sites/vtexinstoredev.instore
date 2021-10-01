@@ -8,11 +8,14 @@ export function loginWithRobot(
 ) {
   cy.get('[data-testId=login-email]').clear().type(login)
   cy.get('[data-testId=login-password]').clear().type(password)
-  cy.contains(/Entrar|Login/).click()
+  cy.get('button[type=submit]')
+    .contains(/Entrar|Login/)
+    .click()
 
   if (validateLoginWorked) {
-    cy.url({ timeout: 10000 })
-      .should('eq', `${Cypress.config().baseUrl}/instore/`)
-      .should('eq', `${Cypress.config().baseUrl}/instore/`)
+    cy.url({ timeout: 10000 }).should(
+      'eq',
+      `${Cypress.config().baseUrl}/instore/`
+    )
   }
 }
