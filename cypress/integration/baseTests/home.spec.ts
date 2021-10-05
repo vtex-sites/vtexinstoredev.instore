@@ -18,8 +18,6 @@ describe('home', () => {
   it('Verify welcome message and body', () => {
     cy.contains('Welcome').should('be.visible')
 
-    cy.contains('Hello World').should('be.visible')
-
     cy.contains('Rendered by Physical Store Team').should('be.visible')
 
     cy.contains('This is the home of Theme inStore Core! \\o/').should(
