@@ -11,17 +11,17 @@ module.exports = {
     {
       resolve: '@vtexlab/gatsby-theme-instore-poc',
     },
-    {
-      resolve: '@vtex/gatsby-instore-plugin-example',
-    },
-    {
-      resolve: '@vtex/gatsby-instore-plugin-example-2',
-    },
-    {
-      resolve: '@vtex/gatsby-instore-plugin-example-3',
-    },
-    {
-      resolve: '@vtex/instore-admin-example',
-    },
+    // {
+    //   resolve: '@vtex/gatsby-instore-plugin-example',
+    // },
+    // {
+    //   resolve: '@vtex/gatsby-instore-plugin-example-2',
+    // },
+    // {
+    //   resolve: '@vtex/gatsby-instore-plugin-example-3',
+    // },
+    // {
+    //   resolve: '@vtex/instore-admin-example',
+    // },
   ],
 }
