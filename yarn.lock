@@ -4216,10 +4216,10 @@
     vtex-tachyons "^3.2.2"
     whatwg-fetch "2.0.4"
 
-"@vtexlab/gatsby-theme-instore-core@0.4.5":
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.4.5.tgz#20da86437891ac838d2ef9d539ecb7c16f82f734"
-  integrity sha512-Jm7g/UtYrRrVBIwHoLBwoT62Th++pN5QKsVf/UX1k5Vl+WBNDrix8sJ9jxrvMrAX7Z454ME8qlsi4KEGx0f/dg==
+"@vtexlab/gatsby-theme-instore-core@0.5.0-beta.1":
+  version "0.5.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.5.0-beta.1.tgz#77ccb262ab9cc884aab6b8504dae20371c432d49"
+  integrity sha512-/u57hNe3zJAoY/aCo5NtYA3glz+yqPjk0o+JwwvqEpeB7p+dLwtXEk+qsGSPQ3YQnldckPRuSOfpHCJiM3Ke8w==
   dependencies:
     "@babel/core" "^7.12.13"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4255,7 +4255,7 @@
     https-browserify "^1.0.0"
     localforage "^1.9.0"
     pino "^6.11.3"
-    pino-splunk-events "^0.0.8"
+    pino-splunk-events "^0.0.9"
     process "^0.11.10"
     querystring "^0.2.1"
     ramda "^0.27.1"
@@ -4285,7 +4285,7 @@
     relay-runtime "11.0.0"
     stream-browserify "^3.0.0"
     stream-http "^3.2.0"
-    swr "^0.5.0"
+    swr "^1.0.1"
     use-context-selector "^1.3.7"
     use-state-with-callback "^2.0.3"
     util "^0.12.4"
@@ -7562,6 +7562,11 @@ dependency-graph@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/dependency-graph/-/dependency-graph-0.11.0.tgz#ac0ce7ed68a54da22165a85e97a01d53f5eb2e27"
   integrity sha512-JeMq7fEshyepOWDfcfHK06N3MhyPhz++vtqWhMT5O9A3K42rdsEDpfdVqjaqaAhsw6a+ZqeDvQVtD0hFHQWrzg==
+
+dequal@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/dequal/-/dequal-2.0.2.tgz#85ca22025e3a87e65ef75a7a437b35284a7e319d"
+  integrity sha512-q9K8BlJVxK7hQYqa6XISGmBZbtQQWVXSrRrWreHC94rMt1QL/Impruc+7p2CYSYuVIUr+YCt6hjrs1kkdJRTug==
 
 des.js@^1.0.0:
   version "1.0.1"
@@ -14273,10 +14278,10 @@ pinkie@^2.0.0:
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
   integrity sha1-clVrgM+g1IqXToDnckjoDtT3+HA=
 
-pino-splunk-events@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/pino-splunk-events/-/pino-splunk-events-0.0.8.tgz#8b7a5769b6f3241b06835294fec207e2eb14b311"
-  integrity sha512-TjvG34YgXeFJ4R8sxfDBAj74gXEuieEWfbWbdRrbLuWPIyqPj19Qu29jYzbBU+SEMjILAEbJno0EZAj6+I276A==
+pino-splunk-events@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/pino-splunk-events/-/pino-splunk-events-0.0.9.tgz#3831bd65b6d9b1f98b8a9c2742ae678e0c114943"
+  integrity sha512-4y+89Zb70lIO4m4HgVjR16znbw1HAfbY50CTWvQXYCx2yQsu7polH2K2aUpC52VoxHWEGfJeuVLW0zKWCE7/OA==
   dependencies:
     "@oclif/command" "^1.8.0"
     "@oclif/errors" "^1.3.4"
@@ -17677,10 +17682,12 @@ swiper@^4.4.6:
     dom7 "^2.1.3"
     ssr-window "^1.0.1"
 
-swr@^0.5.0:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/swr/-/swr-0.5.1.tgz#47173f120340cb44937ad70366b01d1b3d2de1e7"
-  integrity sha512-hDGCe4h6ZOtloyJNpSu6NhvG+8pfWzNSVhXznNCSe23zkeeTVtiItqWitxeUISFVHbSyzADkm7bulAe6mbTqwA==
+swr@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/swr/-/swr-1.0.1.tgz#15f62846b87ee000e52fa07812bb65eb62d79483"
+  integrity sha512-EPQAxSjoD4IaM49rpRHK0q+/NzcwoT8c0/Ylu/u3/6mFj/CWnQVjNJ0MV2Iuw/U+EJSd2TX5czdAwKPYZIG0YA==
+  dependencies:
+    dequal "2.0.2"
 
 symbol-observable@1.0.1:
   version "1.0.1"
