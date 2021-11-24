@@ -4410,10 +4410,10 @@
     vtex-tachyons "^3.2.2"
     whatwg-fetch "2.0.4"
 
-"@vtexlab/gatsby-theme-instore-core@0.7.0-beta.0":
-  version "0.7.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.7.0-beta.0.tgz#cf06271ce9f9892a2cacdec98cb73f140656135d"
-  integrity sha512-BNlYfw12nmGb7Hn2lLeIDd39GZ6oc21xVFivRHWhS0Mu4s1lkcAgzpn3X446Ig7z/i6w17PnwoU/Ma1kyhzdbA==
+"@vtexlab/gatsby-theme-instore-core@0.7.0-beta.1":
+  version "0.7.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.7.0-beta.1.tgz#644923ec95ee04693067150397d8695aba185ea4"
+  integrity sha512-WHFjdwgfuza5tun8XzXMOlWyCgM5YWj5t1wZywleuaMOhztxeBxzpEe1ujyHSDC4CtWkmaqNqDIyVfCiCBbtmA==
   dependencies:
     "@babel/core" "^7.16.0"
     "@babel/plugin-transform-typescript" "^7.13.0"
