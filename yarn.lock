@@ -4326,10 +4326,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@2.145.2":
-  version "2.145.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.145.2.tgz#50d4bd919106066b4ca3e229e05fa261415ad3fc"
-  integrity sha512-kvXoKZk5XlOav07GUFEurGDQF7EYvwL0hQ/5hMCoDHs7lYBxn8idszspEL5o3DGBIKMr64QrxGAsm/VMwBMlRg==
+"@vtexlab/checkout-instore@2.153.3":
+  version "2.153.3"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.153.3.tgz#9794df8771af559631e61d47c6b413185112b653"
+  integrity sha512-7RPAK0KdBZdFHsSLlZhpz7qZBtieXBp7+iQdtvIW7XGjL224ZORtd+I5g7h+hIh/YzCdaz9lGNSxlk40f7VcrQ==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -4377,7 +4377,7 @@
     object-hash "^1.3.1"
     print-js "^1.6.0"
     promise.prototype.finally "^3.1.2"
-    qrcode.react "^0.8.0"
+    qrcode.react "^1.0.1"
     querystring "^0.2.0"
     ramda "^0.27.1"
     rc-progress "^2.0.6"
@@ -4410,10 +4410,10 @@
     vtex-tachyons "^3.2.2"
     whatwg-fetch "2.0.4"
 
-"@vtexlab/gatsby-theme-instore-core@0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.7.1.tgz#28ce38af0773981f13dd2f0ea33701cf4a643e13"
-  integrity sha512-U55YbLUSMZIhUZmf22qsoiGrB6ZRwylalPEUW1OvzYQVsAMe1GjNMn0P9Q4wxHsyY+/kRqaUXuKUYx3tWydaLA==
+"@vtexlab/gatsby-theme-instore-core@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.8.0.tgz#ec72cc188da7b8b348bb8f13c6551ff2b8fdd6ba"
+  integrity sha512-zIJv0sd5EvOhK/Qe7GEt87ytRgTygCHhJ+kd20rQghi2XQskx6wLN6obU2OKGZM2WkmYbVq0HF3oQUl6lRKJ+w==
   dependencies:
     "@babel/core" "^7.16.0"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4425,7 +4425,7 @@
     "@vtex/gatsby-plugin-admin-ui" "^0.3.7"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/gatsby-plugin-nginx" "^1.3.3"
-    "@vtexlab/checkout-instore" "2.145.2"
+    "@vtexlab/checkout-instore" "2.153.3"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
     browserify-zlib "^0.2.0"
@@ -15185,11 +15185,12 @@ qr.js@0.0.0:
   resolved "https://registry.yarnpkg.com/qr.js/-/qr.js-0.0.0.tgz#cace86386f59a0db8050fa90d9b6b0e88a1e364f"
   integrity sha1-ys6GOG9ZoNuAUPqQ2baw6IoeNk8=
 
-qrcode.react@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/qrcode.react/-/qrcode.react-0.8.0.tgz#413b31cc3b62910e39513f7bead945e01c4c34fb"
-  integrity sha512-16wKpuFvLwciIq2YAsfmPUCnSR8GrYPsXRK5KVdcIuX0+W/MKZbBkFhl44ttRx4TWZHqRjfztoWOxdPF0Hb9JA==
+qrcode.react@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/qrcode.react/-/qrcode.react-1.0.1.tgz#2834bb50e5e275ffe5af6906eff15391fe9e38a5"
+  integrity sha512-8d3Tackk8IRLXTo67Y+c1rpaiXjoz/Dd2HpcMdW//62/x8J1Nbho14Kh8x974t9prsLHN6XqVgcnRiBGFptQmg==
   dependencies:
+    loose-envify "^1.4.0"
     prop-types "^15.6.0"
     qr.js "0.0.0"
 
