@@ -8,6 +8,9 @@ module.exports = {
       resolve: '@vtexlab/gatsby-theme-instore-core',
       options: { tenant: STORE_ID },
     },
+    {
+      resolve: 'gatsby-plugin-no-sourcemaps',
+    },
     // {
     //   resolve: '@vtexlab/gatsby-theme-instore-poc',
     // },
