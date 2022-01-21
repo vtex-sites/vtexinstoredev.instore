@@ -9,8 +9,11 @@ module.exports = {
       options: { tenant: STORE_ID },
     },
     {
-      resolve: '@vtexlab/gatsby-theme-instore-poc',
+      resolve: 'gatsby-plugin-no-sourcemaps',
     },
+    // {
+    //   resolve: '@vtexlab/gatsby-theme-instore-poc',
+    // },
     // {
     //   resolve: '@vtex/gatsby-instore-plugin-example',
     // },
