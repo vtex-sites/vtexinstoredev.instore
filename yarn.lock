@@ -2832,19 +2832,6 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@vtex/admin-ui-core@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-core/-/admin-ui-core-0.4.0.tgz#289627d00636ef39e27c38122687238e8f3dda2e"
-  integrity sha512-E8Waib3aRJq4/Yd2d4Sf+AaQUiDfKjjPx2c2r4EEdngfzrRwxLEnhK8APCZL6I9r2O7A79cF07DXdvEuRoOOUQ==
-  dependencies:
-    "@vtex/admin-ui-util" "^0.1.2"
-    csstype "^3.0.5"
-    deepmerge "^4.2.2"
-    focus-visible "^5.1.0"
-    react-helmet "6.1.0"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-
 "@vtex/admin-ui-hooks@^0.1.2":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@vtex/admin-ui-hooks/-/admin-ui-hooks-0.1.3.tgz#f3fd99a623dd6eaf4f33a894504b579edbf17a06"
@@ -2853,13 +2840,12 @@
     "@vtex/admin-ui-util" "^0.1.2"
     use-debounce "^7.0.0"
 
-"@vtex/admin-ui-icons@^0.13.3":
-  version "0.13.6"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-icons/-/admin-ui-icons-0.13.6.tgz#6686c57f4b2d5dae562a62d20e32c6644a06ec47"
-  integrity sha512-ipL5KAACGE4bM+Rt5mXBpdsjG0AxJqc6RA10s16L6PyKbzThD/B9NwrBXC4LSdeG9PIZXrRmWkec+3JyswAacA==
+"@vtex/admin-ui-icons@0.13.3", "@vtex/admin-ui-icons@^0.13.3":
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-icons/-/admin-ui-icons-0.13.3.tgz#2e6723896e9911b5ad00711d681037a67987117f"
+  integrity sha512-H4kUZZDO99PugODOwmgRTg/tt/fp+DsJEaXsELRKEUMOLdT8fuDniwl9Y2tA9lIqxU5qZS5yCWz5epoxXN+6KA==
   dependencies:
-    "@vtex/admin-ui-core" "^0.4.0"
-    "@vtex/admin-ui-react" "^0.4.1"
+    "@vtex/admin-ui-core" "^0.2.0"
 
 "@vtex/admin-ui-react@^0.2.3":
   version "0.2.3"
@@ -2868,17 +2854,6 @@
   dependencies:
     "@emotion/is-prop-valid" "^1.1.0"
     "@vtex/admin-ui-util" "^0.1.1"
-    react-is "^17.0.2"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-
-"@vtex/admin-ui-react@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-react/-/admin-ui-react-0.4.1.tgz#5becbd4fbe97a66609f7ce7ce4329bd2c8c2804c"
-  integrity sha512-sFFZf2KMLLShCfFeVzLomDJEbMh5aD8SQW5TNxA+Cp1Li37Kvqydn96ZhYX6Nh4TxgIF8yodFYcQQTSgxpcJ5Q==
-  dependencies:
-    "@emotion/is-prop-valid" "^1.1.0"
-    "@vtex/admin-ui-util" "^0.1.2"
     react-is "^17.0.2"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
@@ -3004,13 +2979,6 @@
   version "4.10.5"
   resolved "https://registry.yarnpkg.com/@vtex/phone/-/phone-4.10.5.tgz#4cf938586ef0d959b3916a868b0e7ec8edf9ecb2"
   integrity sha512-lngANM5PHAlrxCc5+a985U6E+QVhYMkevjDBuIVAX+rhslVuTAhlxbp5TxWGgsTROHOeoM4447Nu64kLCxmFEA==
-
-"@vtex/phosphor-icons@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@vtex/phosphor-icons/-/phosphor-icons-0.2.0.tgz#a2a35352911b221feda45ae0aef169334c99e1ab"
-  integrity sha512-BO5xF0dX27OeLKOqq1j+mv6THiskDtap9pWQfMRG9BvgPr/4Hxx2k6d2fWUvIzGU4ZJ9OLRNDcrhlt3IU657Cw==
-  dependencies:
-    tiny-invariant "^1.1.0"
 
 "@vtex/pickup-points-modal@^1.1.15":
   version "1.1.15"
@@ -8079,13 +8047,6 @@ gatsby-plugin-manifest@^3.1.0:
     gatsby-plugin-utils "^1.14.0"
     semver "^7.3.5"
     sharp "^0.29.0"
-
-gatsby-plugin-no-sourcemaps@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-no-sourcemaps/-/gatsby-plugin-no-sourcemaps-4.5.0.tgz#e34e1c72bd1328530c80bafaaeec84840b0fcd94"
-  integrity sha512-fcXDEapMGjUFyhvhDBfKawmDGKrsXNA51nxGzQXgRKo9y85eDiFH17z7mW+6AB+O+biOxqc7VDRV0FFHLhYFjA==
-  dependencies:
-    "@babel/runtime" "^7.15.4"
 
 gatsby-plugin-offline@^4.7.0:
   version "4.14.0"
