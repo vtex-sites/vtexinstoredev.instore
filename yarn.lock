@@ -3051,10 +3051,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@2.153.3":
-  version "2.153.3"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.153.3.tgz#9794df8771af559631e61d47c6b413185112b653"
-  integrity sha512-7RPAK0KdBZdFHsSLlZhpz7qZBtieXBp7+iQdtvIW7XGjL224ZORtd+I5g7h+hIh/YzCdaz9lGNSxlk40f7VcrQ==
+"@vtexlab/checkout-instore@2.153.4-beta.npm.1":
+  version "2.153.4-beta.npm.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.153.4-beta.npm.1.tgz#4f9cd120811c7cbc95fee8cdc82ef0062d8e74ca"
+  integrity sha512-IfJC+PH+EulEQ7du9iwYi1U7IT592ZVazYfYJGi/wmkzl3U68/qXw+xldWxMHvKdNJmH68LuVWQcdsFilsksfA==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -3135,10 +3135,10 @@
     vtex-tachyons "^3.2.2"
     whatwg-fetch "2.0.4"
 
-"@vtexlab/gatsby-theme-instore-core@0.8.1-beta.2":
-  version "0.8.1-beta.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.8.1-beta.2.tgz#695a57029a72840da79dc133d9e47e872d17f7c4"
-  integrity sha512-iESeJELHEV8mjxvPpe/jQFM39duHyuL16z3LsN5IKx5jaNmNY+6GumlZF1JMHoCwsG7lWwJ0kmATFoTn+R35Qg==
+"@vtexlab/gatsby-theme-instore-core@0.8.1-beta.3":
+  version "0.8.1-beta.3"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.8.1-beta.3.tgz#357c4e54ac53ae73c66c158cffe6408a585c2c4c"
+  integrity sha512-8bX/GQVMON7FDFaeXQZQ5jqjgdBQ3Z1CYrzCVp6LNppfXgnRFGa2w6i22BGqMn8PTEBGN4oT/87kEfQxUYH+1g==
   dependencies:
     "@babel/core" "^7.16.0"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3150,7 +3150,7 @@
     "@vtex/gatsby-plugin-admin-ui" "^0.3.7"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/gatsby-plugin-nginx" "^1.3.3"
-    "@vtexlab/checkout-instore" "2.153.3"
+    "@vtexlab/checkout-instore" "2.153.4-beta.npm.1"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
     browserify-zlib "^0.2.0"
