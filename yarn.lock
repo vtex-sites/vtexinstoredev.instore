@@ -3051,10 +3051,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@2.153.3":
-  version "2.153.3"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.153.3.tgz#9794df8771af559631e61d47c6b413185112b653"
-  integrity sha512-7RPAK0KdBZdFHsSLlZhpz7qZBtieXBp7+iQdtvIW7XGjL224ZORtd+I5g7h+hIh/YzCdaz9lGNSxlk40f7VcrQ==
+"@vtexlab/checkout-instore@2.159.4-beta.npm.2":
+  version "2.159.4-beta.npm.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.159.4-beta.npm.2.tgz#912e42248087ddd970da2ede68a808f13470ee38"
+  integrity sha512-oKCotRGa/ty/G/a8hUbl+h5p1wfNJV/9ODYZoxLTB9blwixISwBANjDo1sEJsMmuwjoxaLUAUahoV37Q3emgSA==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -3135,10 +3135,10 @@
     vtex-tachyons "^3.2.2"
     whatwg-fetch "2.0.4"
 
-"@vtexlab/gatsby-theme-instore-core@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.8.0.tgz#ec72cc188da7b8b348bb8f13c6551ff2b8fdd6ba"
-  integrity sha512-zIJv0sd5EvOhK/Qe7GEt87ytRgTygCHhJ+kd20rQghi2XQskx6wLN6obU2OKGZM2WkmYbVq0HF3oQUl6lRKJ+w==
+"@vtexlab/gatsby-theme-instore-core@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.9.0.tgz#29081b31c59dba78ae1418d784fd189954cb1308"
+  integrity sha512-kRhm+QAKO0e6g5MTFjhtCW5FiRzvVFbUdcgdNYobFKub+YohxDBfrzk99nx3kFtMQ4gwsLaBKucswPoei8DCJA==
   dependencies:
     "@babel/core" "^7.16.0"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3150,7 +3150,7 @@
     "@vtex/gatsby-plugin-admin-ui" "^0.3.7"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/gatsby-plugin-nginx" "^1.3.3"
-    "@vtexlab/checkout-instore" "2.153.3"
+    "@vtexlab/checkout-instore" "2.159.4-beta.npm.2"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
     browserify-zlib "^0.2.0"
