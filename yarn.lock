@@ -1224,24 +1224,12 @@
   resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
   integrity sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==
 
-"@emotion/is-prop-valid@^0.8.2":
-  version "0.8.8"
-  resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
-  integrity sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==
-  dependencies:
-    "@emotion/memoize" "0.7.4"
-
 "@emotion/is-prop-valid@^1.1.0":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-1.1.1.tgz#cbd843d409dfaad90f9404e7c0404c55eae8c134"
   integrity sha512-bW1Tos67CZkOURLc0OalnfxtSXQJMrAMV0jZTVGJUPSOd4qgjF3+tTD5CwJM13PHA8cltGW1WGbbvV9NpvUZPw==
   dependencies:
     "@emotion/memoize" "^0.7.4"
-
-"@emotion/memoize@0.7.4":
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.4.tgz#19bf0f5af19149111c40d98bb0cf82119f5d9eeb"
-  integrity sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==
 
 "@emotion/memoize@^0.6.1", "@emotion/memoize@^0.6.6":
   version "0.6.6"
@@ -2983,14 +2971,6 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@vtex/admin-ui-core@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-core/-/admin-ui-core-0.5.1.tgz#b4089dceb21a478d11144380d3ae824a8b4ddf83"
-  integrity sha512-DZrX2C3dj7uiMJPiFdA2N+vBZUgm9pob6S5W8YdmJSKnWGdS5pHdH5Gvg9NwTmf2MckaBR5Pd9nsMOnqF8bloA==
-  dependencies:
-    "@vtex/admin-ui-util" "^0.1.3"
-    csstype "3.0.10"
-
 "@vtex/admin-ui-core@^0.6.2":
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/@vtex/admin-ui-core/-/admin-ui-core-0.6.2.tgz#7044662e648c7c474418b36a99f372d0aa4a975f"
@@ -2998,14 +2978,6 @@
   dependencies:
     "@vtex/admin-ui-util" "^0.2.1"
     csstype "3.0.10"
-
-"@vtex/admin-ui-hooks@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-hooks/-/admin-ui-hooks-0.1.4.tgz#04808fdbe334051f0f3a9270ac30726c6a258e3c"
-  integrity sha512-i73TFQ/Vzoqw72z62Z9iqfd+t7YkHcZV24XvNFOqku9Qys8uYaaH6FHC+NYC8g/pcKYhhmFa28ZV7hMNGV9X2g==
-  dependencies:
-    "@vtex/admin-ui-util" "^0.1.3"
-    use-debounce "^7.0.0"
 
 "@vtex/admin-ui-hooks@^0.2.1":
   version "0.2.1"
@@ -3021,19 +2993,6 @@
   integrity sha512-H4kUZZDO99PugODOwmgRTg/tt/fp+DsJEaXsELRKEUMOLdT8fuDniwl9Y2tA9lIqxU5qZS5yCWz5epoxXN+6KA==
   dependencies:
     "@vtex/admin-ui-core" "^0.2.0"
-
-"@vtex/admin-ui-react@^0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-react/-/admin-ui-react-0.5.3.tgz#a06dda6c05530abd65f971a15aa1cf14518fb73c"
-  integrity sha512-2l2L2bY4jN6MOsFrzcovifrpy7jI8eqga/hxIF/+WctR4xBCqLk6VhB5CEXJvZAAPsFORpODokCUtmvpQw331A==
-  dependencies:
-    "@emotion/is-prop-valid" "^1.1.0"
-    "@vtex/admin-ui-util" "^0.1.3"
-    focus-visible "^5.2.0"
-    react-helmet "^6.1.0"
-    react-is "^17.0.2"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
 
 "@vtex/admin-ui-react@^0.6.4":
   version "0.6.6"
@@ -3058,45 +3017,12 @@
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
 
-"@vtex/admin-ui-util@^0.1.3":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-util/-/admin-ui-util-0.1.3.tgz#9fb1da041adad29727ddf8d4537db1831f140f75"
-  integrity sha512-hyn9qeycGnRLChJiVFMkAaSOvl41+Y+kOsC9aGd79J1bJOJzKNdc7PrDslW+rpBBx8rnyrC2qfgTXCGs1R9peg==
-  dependencies:
-    lodash.get "^4.4.2"
-    lodash.merge "^4.6.2"
-    lodash.omit "^4.5.0"
-    lodash.pick "^4.4.0"
-
 "@vtex/admin-ui-util@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@vtex/admin-ui-util/-/admin-ui-util-0.2.1.tgz#36e96503579d99aa570d10753b99f79b64fc1f4a"
   integrity sha512-f4HPXyw/1J25IwTAXzioaINus2DfodU9kvKDwzcowzqnngId4jNOjxc4Kjd5N8XrQUZsdZc+s4Al3++G52dwag==
   dependencies:
     deepmerge "4.2.2"
-
-"@vtex/admin-ui@^0.118.0":
-  version "0.118.5"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui/-/admin-ui-0.118.5.tgz#7ca746ab4fd86bacdce334ea59712b18496d241c"
-  integrity sha512-dvPKw8cZZQ/AdAmLwSfCTGSve3GaVqxTEmdEiAuSqkY/OR5AZbFZbVulf11RUQghonrS4qf+dfwKDXZJge4tQw==
-  dependencies:
-    "@emotion/babel-plugin" "^11.2.0"
-    "@emotion/css" "^11.1.3"
-    "@emotion/react" "^11.1.5"
-    "@vtex/admin-ui-core" "^0.5.1"
-    "@vtex/admin-ui-hooks" "^0.1.4"
-    "@vtex/admin-ui-react" "^0.5.3"
-    "@vtex/phosphor-icons" "0.2.5"
-    csstype "3.0.10"
-    downshift "^6.0.6"
-    framer-motion "^2.9.4"
-    react-device-detect "^1.15.0"
-    react-is "^17.0.1"
-    reakit "^1.3.5"
-    reakit-utils "^0.14.3"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    use-debounce "^7.0.0"
 
 "@vtex/admin-ui@^0.119.0":
   version "0.119.6"
@@ -3209,13 +3135,6 @@
   resolved "https://registry.yarnpkg.com/@vtex/phone/-/phone-4.10.5.tgz#4cf938586ef0d959b3916a868b0e7ec8edf9ecb2"
   integrity sha512-lngANM5PHAlrxCc5+a985U6E+QVhYMkevjDBuIVAX+rhslVuTAhlxbp5TxWGgsTROHOeoM4447Nu64kLCxmFEA==
 
-"@vtex/phosphor-icons@0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@vtex/phosphor-icons/-/phosphor-icons-0.2.5.tgz#fdbfc54b3d7a2278353934fca3f4b08bff9ee1c4"
-  integrity sha512-dRx96Kb7IVnYqYbHrvFD9KgNyupscCDyOpn2mcwHzm2qDvxz2AEOQlkc8BRoQQNM/vWvQqmPYx30wmyAtqWpzw==
-  dependencies:
-    tiny-invariant "^1.1.0"
-
 "@vtex/phosphor-icons@0.2.6":
   version "0.2.6"
   resolved "https://registry.yarnpkg.com/@vtex/phosphor-icons/-/phosphor-icons-0.2.6.tgz#9c01481f3d66ccff9c0051a0387b9abc09d2ad3c"
@@ -3294,17 +3213,17 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@2.160.5-beta.4":
-  version "2.160.5-beta.4"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.160.5-beta.4.tgz#8d92268f06cfbe77395a6a9293db8cdc4facdc45"
-  integrity sha512-bIFy6s+JtPzNoCNsG655u5M4Huxg2EgNJFTkVsBRC8UAUwze0+s/MdO3JHHwY1IibFzwlbrGNcuDK0O06go/pg==
+"@vtexlab/checkout-instore@2.166.2":
+  version "2.166.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.166.2.tgz#b75310351004350feaeef9a49fc79ef990340369"
+  integrity sha512-QC8KOW+sWEWWtfjZOvNMb+db3ESylR2QzIuCDE8jc8JW1HZR7ZMFmToY3Tnr3Jlfoepv9Rk0uwtp3RqKTPoAww==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
     "@react-pdf/renderer" "^2.0.13"
     "@types/react-adaptive-hooks" "^0.0.1"
     "@vtex/address-form" "^3.5.4"
-    "@vtex/admin-ui" "^0.118.0"
+    "@vtex/admin-ui" "^0.119.0"
     "@vtex/axios-concurrent-retry" "^4.0.10"
     "@vtex/butik" "^1.3.6"
     "@vtex/delivery-packages" "2.18.0"
@@ -3361,6 +3280,7 @@
     react-flip-move "^3.0.2"
     react-hot-loader "^4.13.0"
     react-id-swiper "^1.6.2"
+    react-infinite-scroll-component "^6.1.0"
     react-intl "^5.15.8"
     react-redux "^7.2.2"
     react-redux-actions-hook "^1.1.16"
@@ -3380,10 +3300,10 @@
     vtex-tachyons "^3.2.2"
     whatwg-fetch "2.0.4"
 
-"@vtexlab/gatsby-theme-instore-core@0.9.1-beta.0":
-  version "0.9.1-beta.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.9.1-beta.0.tgz#a6dfcbe621e4623f3867ae4b5e6e25802c526d83"
-  integrity sha512-UNgM+iVxqI5FtCF5TiUdsmWy3XBOgiOUNwmqZSh80VkA1RfHlEcpw1hRmszR/BhTKaj5H0QYKZuV/xDajJGlCw==
+"@vtexlab/gatsby-theme-instore-core@0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.9.1.tgz#255ba1c16f9f972de8a78b48c73f45a2727d7c5c"
+  integrity sha512-h3dzU7ZQz9UdMRk7J3YplYusQS7kkcDMgekMEvVliAq8oi8z5LUb9431aBCXK9FP4qTy40q+sjWX345m1pe7eQ==
   dependencies:
     "@babel/core" "^7.16.0"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3395,7 +3315,7 @@
     "@vtex/gatsby-plugin-admin-ui" "^0.6.6"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/gatsby-plugin-nginx" "^1.3.3"
-    "@vtexlab/checkout-instore" "2.160.5-beta.4"
+    "@vtexlab/checkout-instore" "2.166.2"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
     browserify-zlib "^0.2.0"
@@ -3444,6 +3364,7 @@
     react-router-dom "^5.2.0"
     recharts "^2.0.0-beta.1"
     redux "^4.0.5"
+    redux-logger "^3.0.6"
     redux-logic "^3.0.3"
     redux-persist "^6.0.0"
     relay-hooks "^4.2.0"
@@ -6328,6 +6249,11 @@ dedent@^0.7.0:
   resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
   integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
 
+deep-diff@^0.3.5:
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/deep-diff/-/deep-diff-0.3.8.tgz#c01de63efb0eec9798801d40c7e0dae25b582c84"
+  integrity sha1-wB3mPvsO7JeYgB1Ax+Da4ltYLIQ=
+
 deep-equal@^1.0.0, deep-equal@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.1.1.tgz#b5c98c942ceffaf7cb051e24e1434a25a2e6076a"
@@ -8057,26 +7983,6 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-framer-motion@^2.9.4:
-  version "2.9.5"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-2.9.5.tgz#bbb185325d531c57f494cf3f6cf7719fc2c225c7"
-  integrity sha512-epSX4Co1YbDv0mjfHouuY0q361TpHE7WQzCp/xMTilxy4kXd+Z23uJzPVorfzbm1a/9q1Yu8T5bndaw65NI4Tg==
-  dependencies:
-    framesync "^4.1.0"
-    hey-listen "^1.0.8"
-    popmotion "9.0.0-rc.20"
-    style-value-types "^3.1.9"
-    tslib "^1.10.0"
-  optionalDependencies:
-    "@emotion/is-prop-valid" "^0.8.2"
-
-framesync@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/framesync/-/framesync-4.1.0.tgz#69a8db3ca432dc70d6a76ba882684a1497ef068a"
-  integrity sha512-MmgZ4wCoeVxNbx2xp5hN/zPDCbLSKiDt4BbbslK7j/pM2lg5S0vhTNv1v8BCVb99JPIo6hXBFdwzU7Q4qcAaoQ==
-  dependencies:
-    hey-listen "^1.0.5"
-
 fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
@@ -9197,11 +9103,6 @@ help-me@^1.0.1:
     glob-stream "^6.1.0"
     through2 "^2.0.1"
     xtend "^4.0.0"
-
-hey-listen@^1.0.5, hey-listen@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/hey-listen/-/hey-listen-1.0.8.tgz#8e59561ff724908de1aa924ed6ecc84a56a9aa68"
-  integrity sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==
 
 hicat@^0.8.0:
   version "0.8.0"
@@ -12882,16 +12783,6 @@ please-upgrade-node@^3.2.0:
   dependencies:
     semver-compare "^1.0.0"
 
-popmotion@9.0.0-rc.20:
-  version "9.0.0-rc.20"
-  resolved "https://registry.yarnpkg.com/popmotion/-/popmotion-9.0.0-rc.20.tgz#f3550042ae31957b5416793ae8723200951ad39d"
-  integrity sha512-f98sny03WuA+c8ckBjNNXotJD4G2utG/I3Q23NU69OEafrXtxxSukAaJBxzbtxwDvz3vtZK69pu9ojdkMoBNTg==
-  dependencies:
-    framesync "^4.1.0"
-    hey-listen "^1.0.8"
-    style-value-types "^3.1.9"
-    tslib "^1.10.0"
-
 popper.js@^1.14.1, popper.js@^1.14.4:
   version "1.16.1"
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
@@ -13888,6 +13779,13 @@ react-id-swiper@^1.6.2, react-id-swiper@^1.6.8:
     prop-types "^15.7.2"
     swiper "^4.4.6"
 
+react-infinite-scroll-component@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/react-infinite-scroll-component/-/react-infinite-scroll-component-6.1.0.tgz#7e511e7aa0f728ac3e51f64a38a6079ac522407f"
+  integrity sha512-SQu5nCqy8DxQWpnUVLx7V7b7LcA37aM7tvoWjTLZp1dk6EJibM5/4EJKzOnl07/BsM1Y40sKLuqjCwwH/xV0TQ==
+  dependencies:
+    throttle-debounce "^2.1.0"
+
 react-input-autosize@^2.2.1:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/react-input-autosize/-/react-input-autosize-2.2.2.tgz#fcaa7020568ec206bc04be36f4eb68e647c4d8c2"
@@ -14316,11 +14214,6 @@ reakit-system@^0.15.2:
   dependencies:
     reakit-utils "^0.15.2"
 
-reakit-utils@^0.14.3:
-  version "0.14.4"
-  resolved "https://registry.yarnpkg.com/reakit-utils/-/reakit-utils-0.14.4.tgz#1ecf035faf58960ba48eac2963f70269596effcf"
-  integrity sha512-jDEf/NmZVJ6fs10G16ifD+RFhQikSLN7VfjRHu0CPoUj4g6lFXd5PPcRXCY81qiqc9FVHjr2d2fmsw1hs6xUxA==
-
 reakit-utils@^0.15.2:
   version "0.15.2"
   resolved "https://registry.yarnpkg.com/reakit-utils/-/reakit-utils-0.15.2.tgz#b4d5836e534576bfd175171541d43182ad97f2d2"
@@ -14333,7 +14226,7 @@ reakit-warning@^0.6.2:
   dependencies:
     reakit-utils "^0.15.2"
 
-reakit@^1.3.11, reakit@^1.3.5:
+reakit@^1.3.11:
   version "1.3.11"
   resolved "https://registry.yarnpkg.com/reakit/-/reakit-1.3.11.tgz#c15360ac43e94fbe4291d233af3ac5040428252e"
   integrity sha512-mYxw2z0fsJNOQKAEn5FJCPTU3rcrY33YZ/HzoWqZX0G7FwySp1wkCYW79WhuYMNIUFQ8s3Baob1RtsEywmZSig==
@@ -14420,6 +14313,13 @@ reduce-css-calc@^2.1.8:
   dependencies:
     css-unit-converter "^1.1.1"
     postcss-value-parser "^3.3.0"
+
+redux-logger@^3.0.6:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/redux-logger/-/redux-logger-3.0.6.tgz#f7555966f3098f3c88604c449cf0baf5778274bf"
+  integrity sha1-91VZZvMJjzyIYExEnPC69XeCdL8=
+  dependencies:
+    deep-diff "^0.3.5"
 
 "redux-logic-legacy@npm:redux-logic@0.12.2":
   version "0.12.2"
@@ -15794,14 +15694,6 @@ style-to-object@^0.3.0:
   dependencies:
     inline-style-parser "0.1.1"
 
-style-value-types@^3.1.9:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/style-value-types/-/style-value-types-3.2.0.tgz#eb89cab1340823fa7876f3e289d29d99c92111bb"
-  integrity sha512-ih0mGsrYYmVvdDi++/66O6BaQPRPRMQHoZevNNdMMcPlP/cH28Rnfsqf1UEba/Bwfuw9T8BmIMwbGdzsPwQKrQ==
-  dependencies:
-    hey-listen "^1.0.8"
-    tslib "^1.10.0"
-
 stylehacks@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/stylehacks/-/stylehacks-5.0.1.tgz#323ec554198520986806388c7fdaebc38d2c06fb"
@@ -16058,6 +15950,11 @@ theming@^1.3.0:
     is-function "^1.0.1"
     is-plain-object "^2.0.1"
     prop-types "^15.5.8"
+
+throttle-debounce@^2.1.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/throttle-debounce/-/throttle-debounce-2.3.0.tgz#fd31865e66502071e411817e241465b3e9c372e2"
+  integrity sha512-H7oLPV0P7+jgvrk+6mwwwBDmxTaxnu9HMXmloNLXwnNO0ZxZ31Orah2n8lU1eMPvsaowP2CX+USCgyovXfdOFQ==
 
 throttleit@^1.0.0:
   version "1.0.0"
