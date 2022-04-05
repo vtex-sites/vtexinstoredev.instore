@@ -3254,10 +3254,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/checkout-instore@2.166.3":
-  version "2.166.3"
-  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.166.3.tgz#832f6558c8fd71f90f47547a49af50555eff920c"
-  integrity sha512-hP7NNs1zs9P36xx2yoSz39P33qHOXptzVPmVbxxh0UQ26+0ibuQwqTe/mybIh09vUIMYdYvH5SuBiDBpo8St1g==
+"@vtexlab/checkout-instore@2.168.1":
+  version "2.168.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-2.168.1.tgz#99045bc65348fe76ebc44155f40fd6eedd962104"
+  integrity sha512-9sRCTxA+hsG+vM9Oey/mDCeHm34oy6copbMMPTFi5RiG1rtKVD4IyyQqx1PG/pRh/Tl8GvhKCRtZJZQegk0fFw==
   dependencies:
     "@fullstory/browser" "^1.4.5"
     "@material-ui/core" "^3.1.2"
@@ -3341,10 +3341,10 @@
     vtex-tachyons "^3.2.2"
     whatwg-fetch "2.0.4"
 
-"@vtexlab/gatsby-theme-instore-core@0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.9.2.tgz#45a17608e55d0e25e189b83be7402d02caab02c8"
-  integrity sha512-rZ3H3oIiatRAsZRbkiNCrMf9Jf4CtylNSkYDIQZQTqJpjRXpiaj+VMU75Rniec7kPkLpv8amc3zpBW/+vahTBw==
+"@vtexlab/gatsby-theme-instore-core@0.9.4":
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.9.4.tgz#8703517f908a79ae2debe26874bb65e5e5cc259d"
+  integrity sha512-PTEa9UkRlmqav26z07EV3GhxSoYo+qnp1jrMYN+RSKAl41t29nE70yTHaI5KnfDm0YHZGvEA+5fAWfZ76571MQ==
   dependencies:
     "@babel/core" "^7.16.0"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3356,7 +3356,7 @@
     "@vtex/gatsby-plugin-admin-ui" "^0.6.6"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/gatsby-plugin-nginx" "^1.3.3"
-    "@vtexlab/checkout-instore" "2.166.3"
+    "@vtexlab/checkout-instore" "2.168.1"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
     browserify-zlib "^0.2.0"
@@ -3399,7 +3399,7 @@
     react-portal "^4.2.1"
     react-redux "^7.2.2"
     react-relay "^11.0.0"
-    react-relay-network-modern "^6.0.0"
+    react-relay-network-modern "^6.2.1"
     react-relay-offline "^3.2.0"
     react-router "^5.2.0"
     react-router-dom "^5.2.0"
@@ -3412,7 +3412,7 @@
     relay-runtime "11.0.0"
     stream-browserify "^3.0.0"
     stream-http "^3.2.0"
-    swr "^1.0.1"
+    swr "1.0.1"
     use-context-selector "^1.3.7"
     use-state-with-callback "^2.0.3"
     util "^0.12.4"
@@ -6461,7 +6461,7 @@ dependency-graph@^0.11.0:
   resolved "https://registry.yarnpkg.com/dependency-graph/-/dependency-graph-0.11.0.tgz#ac0ce7ed68a54da22165a85e97a01d53f5eb2e27"
   integrity sha512-JeMq7fEshyepOWDfcfHK06N3MhyPhz++vtqWhMT5O9A3K42rdsEDpfdVqjaqaAhsw6a+ZqeDvQVtD0hFHQWrzg==
 
-dequal@^2.0.0, dequal@^2.0.2:
+dequal@2.0.2, dequal@^2.0.0, dequal@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/dequal/-/dequal-2.0.2.tgz#85ca22025e3a87e65ef75a7a437b35284a7e319d"
   integrity sha512-q9K8BlJVxK7hQYqa6XISGmBZbtQQWVXSrRrWreHC94rMt1QL/Impruc+7p2CYSYuVIUr+YCt6hjrs1kkdJRTug==
@@ -14118,7 +14118,7 @@ react-refresh@^0.9.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.9.0.tgz#71863337adc3e5c2f8a6bfddd12ae3bfe32aafbf"
   integrity sha512-Gvzk7OZpiqKSkxsQvO/mbTN1poglhmAV7gR/DdIrRrSMXraRQQlfikRJOr3Nb9GTMPC5kof948Zy6jJZIFtDvQ==
 
-react-relay-network-modern@^6.0.0:
+react-relay-network-modern@^6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/react-relay-network-modern/-/react-relay-network-modern-6.2.1.tgz#34e93110cf1bb0e666bffb00b513335c37950bc9"
   integrity sha512-O1kP9GkNrm4d+ibfuTY9yNbkXV6vAByJ4jYTZIXn8nh7jLWoe6PneF1VcBYvYvzWYsebpCLDQHDPoXI05S+rhQ==
@@ -16019,10 +16019,12 @@ swiper@^4.4.6:
     dom7 "^2.1.3"
     ssr-window "^1.0.1"
 
-swr@^1.0.1:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/swr/-/swr-1.2.2.tgz#6cae09928d30593a7980d80f85823e57468fac5d"
-  integrity sha512-ky0BskS/V47GpW8d6RU7CPsr6J8cr7mQD6+do5eky3bM0IyJaoi3vO8UhvrzJaObuTlGhPl2szodeB2dUd76Xw==
+swr@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/swr/-/swr-1.0.1.tgz#15f62846b87ee000e52fa07812bb65eb62d79483"
+  integrity sha512-EPQAxSjoD4IaM49rpRHK0q+/NzcwoT8c0/Ylu/u3/6mFj/CWnQVjNJ0MV2Iuw/U+EJSd2TX5czdAwKPYZIG0YA==
+  dependencies:
+    dequal "2.0.2"
 
 symbol-observable@1.0.1:
   version "1.0.1"
