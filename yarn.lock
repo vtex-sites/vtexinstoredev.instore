@@ -3630,10 +3630,10 @@
     whatwg-fetch "2.0.4"
     yup "^0.32.11"
 
-"@vtexlab/gatsby-theme-instore-core@0.19.1-beta.0":
-  version "0.19.1-beta.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.19.1-beta.0.tgz#9284ca3b63741f78f90d9f211a4e5ab89ec8b189"
-  integrity sha512-vbn3nGs3mzrJe4d39xFR0myw9W+xUzBzx74mZQeSerJZMMxLZxlSTDFMdx5/yARAyErtt3a7U6Tyb6oQ2zLB+Q==
+"@vtexlab/gatsby-theme-instore-core@0.19.1-beta.3":
+  version "0.19.1-beta.3"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.19.1-beta.3.tgz#aeb9c08e5187c2c0607a58df6b313d4be7508968"
+  integrity sha512-WiuhEjF0MX2SWOYUO82pqpGrXpsjxrQkCsePnmAPQHziUvc+B9y8ho3KQgbIVBmjBoltCZ51DmJ4voKSRVDJiA==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
