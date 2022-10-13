@@ -3431,14 +3431,6 @@
     "@graphql-tools/relay-operation-optimizer" "^6.0.15"
     fs-extra "^9.0.1"
 
-"@vtex/gatsby-plugin-nginx@^1.3.3":
-  version "1.7.5"
-  resolved "https://registry.yarnpkg.com/@vtex/gatsby-plugin-nginx/-/gatsby-plugin-nginx-1.7.5.tgz#45d08fe981aae6cc05dc0621a7208b5aedc55717"
-  integrity sha512-eWS5pWHI/RP2I68lv9n14qkTvrInfmWmENWUhDR+XZKpxflEUHgmq8z/q2zGLOKquPIFWA5PXEKE+kpFxU72FA==
-  dependencies:
-    kebab-hash "^0.1.2"
-    webpack-assets-manifest "^5.0.6"
-
 "@vtex/lighthouse-config@0.373.24":
   version "0.373.24"
   resolved "https://registry.yarnpkg.com/@vtex/lighthouse-config/-/lighthouse-config-0.373.24.tgz#ff06837c8a3247b3d97c74e7cb86386cb90f85e8"
@@ -3630,10 +3622,18 @@
     whatwg-fetch "2.0.4"
     yup "^0.32.11"
 
-"@vtexlab/gatsby-theme-instore-core@0.20.0":
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.20.0.tgz#baddea3fc57a95ba76ceb19509bc64bb7f47fc3a"
-  integrity sha512-WOH1arLvndHjpfn08MzlTpUgf3iQZC9qPuxO292ch4qX4/bX5fexSV229BuiOkIT5z0vlxTz2lN1S+xNYEqzFg==
+"@vtexlab/gatsby-plugin-instore-nginx@0.20.5":
+  version "0.20.5"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-instore-nginx/-/gatsby-plugin-instore-nginx-0.20.5.tgz#5040d80ae4ea469b46ce8dfcbf2a5653e1c258c0"
+  integrity sha512-RxKKSpUbckYXVCU/rSNd1Yd5r5f7CQPHOyRK+jfLhUT8tvjAF+S46eAa6t7f93JCZ4659wsCITl0U9igxjKVFQ==
+  dependencies:
+    kebab-hash "^0.1.2"
+    webpack-assets-manifest "^4.0.6"
+
+"@vtexlab/gatsby-theme-instore-core@0.20.6":
+  version "0.20.6"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.20.6.tgz#a03bbb7bd36d45a0bf644d60e1587f20676e684a"
+  integrity sha512-Xuj7l1BSOIBgsl5AiBFe4o1wAVIemRauHYW/D/UKmCNQDgUwedGF49Slie4aCYqEAlMgZLCCwHApHSCe0C7ZdQ==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3647,9 +3647,9 @@
     "@vtex/estimate-calculator" "^1.1.0"
     "@vtex/gatsby-plugin-admin-ui" "^0.6.6"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
-    "@vtex/gatsby-plugin-nginx" "^1.3.3"
     "@vtex/phone" "^4.10.5"
     "@vtexlab/checkout-instore" "2.196.0"
+    "@vtexlab/gatsby-plugin-instore-nginx" "0.20.5"
     abortcontroller-polyfill "^1.7.3"
     assert "^2.0.0"
     babel-plugin-relay "^10.1.3"
@@ -12246,6 +12246,11 @@ mkdirp@^0.5.1, mkdirp@^0.5.4, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.6"
 
+mkdirp@^1.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
+  integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
+
 moment@^2.22.2, moment@^2.27.0:
   version "2.29.2"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.2.tgz#00910c60b20843bcba52d37d58c628b47b1f20e4"
@@ -16552,12 +16557,12 @@ table@^6.0.9:
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
 
-tapable@^1.0.0:
+tapable@^1.0, tapable@^1.0.0:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-1.1.3.tgz#a1fccc06b58db61fd7a45da2da44f5f3a3e67ba2"
   integrity sha512-4WK/bYZmj8xLr+HUCODHGF1ZFzsYffasLUgEiMBY4fgtltdO6B4WJtlSbPaDTLpYTcGVwM2qLnFTICEcNxs3kA==
 
-tapable@^2.0, tapable@^2.1.1, tapable@^2.2.0:
+tapable@^2.1.1, tapable@^2.2.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-2.2.1.tgz#1967a73ef4060a82f12ab96af86d52fdb76eeca0"
   integrity sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==
@@ -17588,18 +17593,20 @@ webidl-conversions@^3.0.0:
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
   integrity sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=
 
-webpack-assets-manifest@^5.0.6:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/webpack-assets-manifest/-/webpack-assets-manifest-5.1.0.tgz#5af328f6c8fa760cb9a62af631a83da2b478b791"
-  integrity sha512-kPuTMEjBrqZQVJ5M6yXNBCEdFbQQn7p+loNXt8NOeDFaAbsNFWqqwR0YL1mfG5LbwhK5FLXWXpuK3GuIIZ46rg==
+webpack-assets-manifest@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/webpack-assets-manifest/-/webpack-assets-manifest-4.0.6.tgz#cb8cfd2d2d8d129228cea645c832448380c21ae0"
+  integrity sha512-9MsBOINUoGcj3D7XHQOOuQri7VEDArkhn5gqnpCqPungLj8Vy3utlVZ6vddAVU5feYroj+DEncktbaZhnBxdeQ==
   dependencies:
     chalk "^4.0"
     deepmerge "^4.0"
     lockfile "^1.0"
     lodash.get "^4.0"
     lodash.has "^4.0"
+    mkdirp "^1.0"
     schema-utils "^3.0"
-    tapable "^2.0"
+    tapable "^1.0"
+    webpack-sources "^1.0"
 
 webpack-dev-middleware@^4.1.0:
   version "4.3.0"
@@ -17630,7 +17637,7 @@ webpack-merge@^5.7.3:
     clone-deep "^4.0.1"
     wildcard "^2.0.0"
 
-webpack-sources@^1.1.0:
+webpack-sources@^1.0, webpack-sources@^1.1.0:
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-1.4.3.tgz#eedd8ec0b928fbf1cbfe994e22d2d890f330a933"
   integrity sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ==
