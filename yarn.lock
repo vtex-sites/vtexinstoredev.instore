@@ -3253,30 +3253,17 @@
     native-promise-only "0.8.1"
     weakmap-polyfill "2.0.4"
 
-"@vtex/address-form@2.5.6":
-  version "2.5.6"
-  resolved "https://registry.yarnpkg.com/@vtex/address-form/-/address-form-2.5.6.tgz#93fcd41479a9e09f1015b7edf50a74deb53928fb"
-  integrity sha512-qnh7NcPeauvZgYUhPX8iT7SD/srTuebTchrtIhV4PbzGGmB/4n1SGFjXlQXoFk+bTxjROXNVUjd6qlneDxLwHw==
-  dependencies:
-    "@vtex/styleguide" "^5.6.2"
-    axios "^0.16.2"
-    classnames "^2.2.5"
-    load-google-maps-api "^1.0.0"
-    lodash "^4.17.4"
-    msk "1.0.3"
-    recompose "^0.27.1"
-
-"@vtex/address-form@^3.5.4":
-  version "3.27.2"
-  resolved "https://registry.yarnpkg.com/@vtex/address-form/-/address-form-3.27.2.tgz#045bcd2c8a8b021ba96977ddb0b2cf4ff64863ae"
-  integrity sha512-T6yWQC7+DajbQ8JRcdsLNhjyLF1pjXSvrXy/QgPYf4EGkwkT1qgc4vaE8pOqBZyiHM7kz+Mg5PlkiUrUHXLcJA==
+"@vtex/address-form@2.5.6", "@vtex/address-form@3.16.3", "@vtex/address-form@^3.5.4":
+  version "3.16.3"
+  resolved "https://registry.yarnpkg.com/@vtex/address-form/-/address-form-3.16.3.tgz#3e41cf96cdd5b981b789bb140d6977b26eb40d2f"
+  integrity sha512-QSa0f2YmU4H+JLUKOs2hRBVqvqmkJyPSgBVjSNn4foaHIvVITtOkYdFeFF3048AuB7/zhMXMQAlB03grnTVB0w==
   dependencies:
     "@vtex/styleguide" "^9.112.28"
     axios "^0.16.2"
     classnames "^2.2.5"
     load-google-maps-api "^1.0.0"
     lodash "^4.17.4"
-    msk "^1.0.5"
+    msk "1.0.3"
     recompose "^0.27.1"
 
 "@vtex/admin-formik@^0.4.1-next.0":
@@ -3522,7 +3509,7 @@
     react-responsive "^4.1.0"
     smoothscroll-polyfill "^0.4.3"
 
-"@vtex/styleguide@^5.4.1", "@vtex/styleguide@^5.4.4", "@vtex/styleguide@^5.6.2":
+"@vtex/styleguide@^5.4.1", "@vtex/styleguide@^5.4.4":
   version "5.6.2"
   resolved "https://registry.yarnpkg.com/@vtex/styleguide/-/styleguide-5.6.2.tgz#133ac2d7847b148f4b1bdb836b999cb90d667c22"
   integrity sha512-jeJvB+T8/YuRQzbZ5yeUGdcSk/pg5mgl0w/BzeTNKPLI3zf0NrJ6icTsL55eErej6kWUL4svxz1BkF6d01wFFA==
@@ -3666,7 +3653,7 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@0.20.7-beta.2":
+"@vtexlab/gatsby-theme-instore-core@0.20.7-beta.2nvm ":
   version "0.20.7-beta.2"
   resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.20.7-beta.2.tgz#22c633129cea6b2f02393252fee7ac612b420593"
   integrity sha512-Xc0CQgp7kv7c68HnIL6rZ48jOdh0svx+/sqQQZvZPRmOAY7hEj1et9lS+Sbbb3YlkM/dBSG7O5FGKj99j7nx7w==
@@ -14451,6 +14438,7 @@ react-input-autosize@^2.2.1:
     prop-types "^15.5.8"
 
 "react-intl-legacy@npm:react-intl@2.9.0", react-intl@^2.7.2:
+  name react-intl-legacy
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.9.0.tgz#c97c5d17d4718f1575fdbd5a769f96018a3b1843"
   integrity sha512-27jnDlb/d2A7mSJwrbOBnUgD+rPep+abmoJE511Tf8BnoONIAUehy/U1zZCHGO17mnOwMWxqN4qC0nW11cD6rA==
