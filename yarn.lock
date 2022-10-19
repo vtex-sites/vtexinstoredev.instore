@@ -3653,7 +3653,7 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@0.20.7-beta.2nvm ":
+"@vtexlab/gatsby-theme-instore-core@0.20.7-beta.2":
   version "0.20.7-beta.2"
   resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.20.7-beta.2.tgz#22c633129cea6b2f02393252fee7ac612b420593"
   integrity sha512-Xc0CQgp7kv7c68HnIL6rZ48jOdh0svx+/sqQQZvZPRmOAY7hEj1et9lS+Sbbb3YlkM/dBSG7O5FGKj99j7nx7w==
