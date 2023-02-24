@@ -3656,10 +3656,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@0.31.0":
-  version "0.31.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.31.0.tgz#53eb9a975e81a023dc50cd4612a0985d9ddd087b"
-  integrity sha512-BXQ0YxsM6LHu2B7O/wGxlVuepfK4oMV/83h02o8/ppk9NXD6ZjnCHl3OadBLtfDgIT729m6V8mLjwLrd27dEpw==
+"@vtexlab/gatsby-theme-instore-core@0.31.1-beta.1":
+  version "0.31.1-beta.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-0.31.1-beta.1.tgz#c83b42df42d34dad07932c83c24bc7078a634449"
+  integrity sha512-VPlW9WUKauXbmqTDbQWPKwKwKrS5p32f70ZcySPYoMJPwh2xJVDKygwt2twZcUhV3UyQ9+goW3EYlGQ5wdvhMg==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
