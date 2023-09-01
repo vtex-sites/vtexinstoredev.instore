@@ -3522,17 +3522,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/assisted-sales-localization@1.8.10":
+"@vtexlab/assisted-sales-localization@1.8.10", "@vtexlab/assisted-sales-localization@^1.7.7":
   version "1.8.10"
   resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-1.8.10.tgz#d1ed4c6c9459f893acd02702388499522d2b4ce9"
   integrity sha512-8HFvanSJM9fK3lgJThofeq7XRt3jldb/Kg4xHnQrmnC90VijYdNgr0pMXJsB1WqKWnfv9Ch76wjYBGmDje42/Q==
-  dependencies:
-    msk "^1.0.5"
-
-"@vtexlab/assisted-sales-localization@^1.7.7":
-  version "1.7.7"
-  resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-1.7.7.tgz#c3cdfb54a71f0c1784376011055ea3dbe22bd1be"
-  integrity sha512-BzvWHhO6pFwDF/UfeOAFBAWK52HBW13Ip0Ltp27CzrsroTTMqx22LEoqFUarLHh4/psmdvNl5hXFzB+qp+UGvw==
   dependencies:
     msk "^1.0.5"
 
@@ -3638,10 +3631,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@1.8.10":
-  version "1.8.10"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-1.8.10.tgz#835b5fb639ccba812def85e481411baea5448a34"
-  integrity sha512-I2EKHUSa/KMlXhuhtaH/pFOpUkaq9NRUUxewxL2ouvINqYnN3APg4rajFd7oo0GF4ptA/kYQIbUs91uj4uuBEw==
+"@vtexlab/gatsby-theme-instore-core@1.9.0-beta.2":
+  version "1.9.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-1.9.0-beta.2.tgz#be267d3b530058e931d271b2780ee556a7830c17"
+  integrity sha512-ATqJoYfrL9n0QNE9XzDxV2T0oqfLBnAvxRDJyLHmwjiSAewW++Avqv0yf37vwi9LGEKwja+NhNhK7OoMMEqRew==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
