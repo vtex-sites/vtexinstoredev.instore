@@ -4,4 +4,7 @@ module.exports = {
     storeId: 'vtexinstoredev',
     environment: 'vtexcommercestable',
   },
+  experimental: {
+    nodeVersion: 14,
+  }
 }
