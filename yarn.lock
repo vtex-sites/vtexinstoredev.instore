@@ -4131,10 +4131,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@2.18.0":
-  version "2.18.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.18.0.tgz#4e492b68ae9bdc7c1071613d43e78369447a2898"
-  integrity sha512-voMZ7Lh3lhwOriHbcS3d9+Am05Eq3norKhVOqv7OimjOuMAcixN+4LQkae0TL2m2f2a9tqY9pOEP0wDHZ9g2dA==
+"@vtexlab/gatsby-theme-instore-core@2.19.0-beta.0":
+  version "2.19.0-beta.0"
+  resolved "https://registry.npmjs.org/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.19.0-beta.0.tgz#e3ee6be3e6995bff8cff6e36ab035330ae851a53"
+  integrity sha512-6lZGETD9j6yfmgh1Z55SY7HO1ivZPax8sUIq0hVbNlOaWhPY4vK/JorWkaBdXXQtkrau50RjqZhJVB++69dFqQ==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -14925,8 +14925,18 @@ react-input-autosize@^2.2.1:
   dependencies:
     prop-types "^15.5.8"
 
-"react-intl-legacy@npm:react-intl@2.9.0", react-intl@^2.7.2:
-  name react-intl-legacy
+"react-intl-legacy@npm:react-intl@2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.9.0.tgz#c97c5d17d4718f1575fdbd5a769f96018a3b1843"
+  integrity sha512-27jnDlb/d2A7mSJwrbOBnUgD+rPep+abmoJE511Tf8BnoONIAUehy/U1zZCHGO17mnOwMWxqN4qC0nW11cD6rA==
+  dependencies:
+    hoist-non-react-statics "^3.3.0"
+    intl-format-cache "^2.0.5"
+    intl-messageformat "^2.1.0"
+    intl-relativeformat "^2.1.0"
+    invariant "^2.1.1"
+
+react-intl@^2.7.2:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.9.0.tgz#c97c5d17d4718f1575fdbd5a769f96018a3b1843"
   integrity sha512-27jnDlb/d2A7mSJwrbOBnUgD+rPep+abmoJE511Tf8BnoONIAUehy/U1zZCHGO17mnOwMWxqN4qC0nW11cD6rA==
