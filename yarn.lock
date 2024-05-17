@@ -4165,6 +4165,14 @@
     lint "^0.8.19"
     msk "^1.0.5"
 
+"@vtexlab/assisted-sales-localization@2.31.2":
+  version "2.31.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-2.31.2.tgz#7c518a6fbfb817bc82cd7744a821a8aef828105b"
+  integrity sha512-6h8iTmKiJggLdf/lUO0/WK8g4S6pN1RUxZjBIsDrkn9PFLWot/L7TNmti8bubO41J1HRzlEDOEwiDYbj+NEMnA==
+  dependencies:
+    lint "^0.8.19"
+    msk "^1.0.5"
+
 "@vtexlab/checkout-instore@4.9.9":
   version "4.9.9"
   resolved "https://registry.yarnpkg.com/@vtexlab/checkout-instore/-/checkout-instore-4.9.9.tgz#3eb54d619cf02797a5fd308269d1ca9d4e602866"
@@ -4268,10 +4276,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@2.31.1":
-  version "2.31.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.31.1.tgz#557571ea86a47ce0ab57eaa688df3e125c1f60b7"
-  integrity sha512-GpRyCnA+rhHFU36HZiplratl1Kka+XJ65Ky/8bALjxS1sCpX42QtX6gE0W5SqbRlG9rMe+ddjmbKYxWg9IkehA==
+"@vtexlab/gatsby-theme-instore-core@2.31.2":
+  version "2.31.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.31.2.tgz#52ba0d8849981ce9632d79bd07f16cedb7b8336c"
+  integrity sha512-Uwb/39NtQJwcHroh355xeav0zuKflQwBDPV1gR/ZLREa7dA5zqNgMYJ75yuoQJxCCLpSjrLPhKoEf9FsX0KPxQ==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -4290,7 +4298,7 @@
     "@vtex/estimate-calculator" "^1.1.0"
     "@vtex/gatsby-plugin-graphql" "^0.277.2"
     "@vtex/phone" "^4.17.11"
-    "@vtexlab/assisted-sales-localization" "2.28.2"
+    "@vtexlab/assisted-sales-localization" "2.31.2"
     "@vtexlab/checkout-instore" "4.9.9"
     "@vtexlab/gatsby-plugin-instore-nginx" "2.26.1"
     "@vtexlab/scheduled-delivery" "^1.0.2"
