@@ -3888,10 +3888,10 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/assisted-sales-localization@2.41.7-beta.0":
-  version "2.41.7-beta.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-2.41.7-beta.0.tgz#1d77683a3be4d4edef20cdc14466ff80e55da10c"
-  integrity sha512-kpRTV2zRK0L7Nd4CJmg8GIIO15sQNCQXEbHqw+bWYJBAa4hKOGZ3JTlv0hb5DCOGWyUz6ZmaBPtfzFZkewyzZA==
+"@vtexlab/assisted-sales-localization@2.41.7-beta.1":
+  version "2.41.7-beta.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-2.41.7-beta.1.tgz#bb22828cd6551402dd199b6c3815cd859d458c01"
+  integrity sha512-3F/FKXXpbgHaSKFLXmQFQGjwcD1bso1N6s0ODJFTd4l9h+x8bXeQhdyLBvmZvREBpdZdk5QDV8rUK31qgKW9Pg==
   dependencies:
     lint "^0.8.19"
     msk "^1.0.5"
@@ -3904,10 +3904,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@2.41.7-beta.0":
-  version "2.41.7-beta.0"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.41.7-beta.0.tgz#a4858284c59dbb09a33125458673130ee4a47309"
-  integrity sha512-jAY2/ufdWIEG6PzAJSoblVPMoDoVnjKdXKvOk7o6Z/F55bvw3EvrskxJz2eX5MZUYmm0n5b+Ri9963gY7k+YGQ==
+"@vtexlab/gatsby-theme-instore-core@2.41.7-beta.1":
+  version "2.41.7-beta.1"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-2.41.7-beta.1.tgz#4080af2d51889802a0425c764c7e4249c5c7e693"
+  integrity sha512-F9phcmxwnizcGP9X6xbql5fWvd2CCy5+gH09al7rq3+cax4iMOsZV/RTCs0m2VmwWqmWgbriA1SBGHqZZniTpw==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3936,7 +3936,7 @@
     "@vtex/phone" "^4.17.11"
     "@vtex/pickup-points-modal" "^1.1.15"
     "@vtex/styleguide" "^9.145.0"
-    "@vtexlab/assisted-sales-localization" "2.41.7-beta.0"
+    "@vtexlab/assisted-sales-localization" "2.41.7-beta.1"
     "@vtexlab/gatsby-plugin-instore-nginx" "2.26.1"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/scheduled-delivery" "^1.0.2"
@@ -3948,6 +3948,7 @@
     browserify-zlib "^0.2.0"
     buffer "^6.0.3"
     classnames "^2.3.2"
+    clean-css "^4.2.3"
     connected-react-router "6.9.2"
     core-js "3.9.1"
     crypto-browserify "^3.12.0"
@@ -5722,6 +5723,13 @@ classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
   integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
+
+clean-css@^4.2.3:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.4.tgz#733bf46eba4e607c6891ea57c24a989356831178"
+  integrity sha512-EJUDT7nDVFDvaQgAo2G/PJvxmp1o/c6iXLbswsBbUFXi1Nr+AjA2cKmfbKDMjMvzEe75g3P6JkaDDAKk96A85A==
+  dependencies:
+    source-map "~0.6.0"
 
 clean-stack@^2.0.0:
   version "2.2.0"
