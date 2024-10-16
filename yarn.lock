@@ -3915,10 +3915,10 @@
     lint "^0.8.19"
     msk "^1.0.5"
 
-"@vtexlab/gatsby-plugin-federation@3.10.1":
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-federation/-/gatsby-plugin-federation-3.10.1.tgz#b85906ae22fe541791271a6ce664063a0300692f"
-  integrity sha512-Ns4wkH+bkR90zkRh3TO8ki/Ns9fm8R5CzVOB1RSjNgn63+8d16tel0r1tiIF6+P7rqJQT+dQGdsZaLc0AU/fJg==
+"@vtexlab/gatsby-plugin-federation@3.10.2-beta.2":
+  version "3.10.2-beta.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-plugin-federation/-/gatsby-plugin-federation-3.10.2-beta.2.tgz#8efc8c1da8ab29f9f4ee73729679700ff46fd0de"
+  integrity sha512-BSoGWAx+pyDhIVHshsnsQMFfyJBi1ZYLGRH0RYQvfZmOjGQcZ7vYuulFoNqLTnr8jU+SiB1BMKOZSQtZDPH3fA==
   dependencies:
     "@module-federation/node" "0.11.1"
     external-remotes-plugin "1.0.0"
@@ -3931,10 +3931,10 @@
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.10.1":
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.10.1.tgz#d261047d74b0a338b97cb5a8dacfee1616fe80fb"
-  integrity sha512-S7UatyQJvo/2Ucd5Ndoo6B1ER/QYgvDopI/dtnOPP1pab+ocaSjkMs7s1NT6GIJjT10fqw7DCxzyJkkIUqRHOw==
+"@vtexlab/gatsby-theme-instore-core@3.10.2-beta.2":
+  version "3.10.2-beta.2"
+  resolved "https://registry.yarnpkg.com/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.10.2-beta.2.tgz#ed7518f7ded58508612125f754fd419dc1d7ac76"
+  integrity sha512-He8Eu3r1ZOEVP395S8eEItGO64+yCo9uPfrgvr0la+5H55fxOeLhV3bw1F2PQ9Se2JMkjFR4KRv0m7WywEwwPw==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -3964,7 +3964,7 @@
     "@vtex/pickup-points-modal" "^1.1.15"
     "@vtex/styleguide" "^9.145.0"
     "@vtexlab/assisted-sales-localization" "3.4.3"
-    "@vtexlab/gatsby-plugin-federation" "3.10.1"
+    "@vtexlab/gatsby-plugin-federation" "3.10.2-beta.2"
     "@vtexlab/gatsby-plugin-instore-nginx" "3.0.5"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/scheduled-delivery" "^1.0.2"
