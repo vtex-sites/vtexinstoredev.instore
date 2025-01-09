@@ -6,7 +6,10 @@ module.exports = {
   plugins: [
     {
       resolve: '@vtexlab/gatsby-theme-instore-core',
-      options: { tenant: process.env.GATSBY_STORE_ID },
+      options: {
+        tenant: process.env.GATSBY_STORE_ID,
+        enableExtensions: true,
+      },
     },
     // {
     //   resolve: '@vtexlab/gatsby-theme-instore-poc',
