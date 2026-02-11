@@ -3,8 +3,5 @@ module.exports = {
   api: {
     storeId: 'vtexinstoredev',
     environment: 'vtexcommercestable',
-  },
-  experimental: {
-    nodeVersion: 14,
   }
 }
