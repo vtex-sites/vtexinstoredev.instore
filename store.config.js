@@ -5,6 +5,6 @@ module.exports = {
     environment: 'vtexcommercestable',
   },
   experimental: {
-    nodeVersion: '20.19.1',
+    nodeVersion: 20,
   },
 }
