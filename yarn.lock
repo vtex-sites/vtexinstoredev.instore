@@ -5138,26 +5138,26 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/assisted-sales-localization@3.49.9-beta.9":
-  version "3.49.9-beta.9"
-  resolved "https://registry.npmjs.org/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-3.49.9-beta.9.tgz#fe8c2dacc230293357b1459109fa1727d37f89f4"
-  integrity sha512-EpQ6TH3+FMbA0B4suEDDsms8Nam4/EsSSwkJ0jFAK1U5wWDtYKgeAqElbnTCukUdt5tuRgGXk/5xpBuCQwjPhg==
+"@vtexlab/assisted-sales-localization@3.49.9-beta.10":
+  version "3.49.9-beta.10"
+  resolved "https://registry.npmjs.org/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-3.49.9-beta.10.tgz#f5766bf252b1e39e586c96e894d599e1703bc39c"
+  integrity sha512-+KYcS3GzejXTOsLYRF4jDLWvwWCI+Tc3Ov0FwIU+ZoV8n3SQRW2g369ce8j8sV/ikHrkwT8I5nrliPoV/bhrAg==
   dependencies:
     lint "^0.8.19"
     msk "^1.0.5"
 
-"@vtexlab/gatsby-plugin-instore-nginx@3.49.9-beta.9":
-  version "3.49.9-beta.9"
-  resolved "https://registry.npmjs.org/@vtexlab/gatsby-plugin-instore-nginx/-/gatsby-plugin-instore-nginx-3.49.9-beta.9.tgz#2d9234e82430ce50c295cd73e48cfc7356c7f926"
-  integrity sha512-g/LVVmaLiHnSYs8G3fOgnmIiH07SxbaqpMsq5uM56AEUZJ4y1YVpqzBMa5xeEFtS/8Ja3fvpPXaTon/EdMVIoA==
+"@vtexlab/gatsby-plugin-instore-nginx@3.49.9-beta.10":
+  version "3.49.9-beta.10"
+  resolved "https://registry.npmjs.org/@vtexlab/gatsby-plugin-instore-nginx/-/gatsby-plugin-instore-nginx-3.49.9-beta.10.tgz#ba88fd6ae6ca55e892a92ca2a8cb61738ae11783"
+  integrity sha512-YNC0HqDQvrp+mW/oTfRsy0mhD4gXgwEnMdLcgGTMuZVBdJynDYpRYVbMegdPJ0QU45qie3IIDrt+O5FjPAhIag==
   dependencies:
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.49.9-beta.9":
-  version "3.49.9-beta.9"
-  resolved "https://registry.npmjs.org/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.49.9-beta.9.tgz#cf0fee2d0ffe213337dfd09471c7d47a53a86805"
-  integrity sha512-88kmMT9KiU6cOQ8wBy0/QwEsNt6YYY7TWkeJO6ThbJN5na+gT5BnstmE9NnI9TjxFPu55YuN79ShbFPgxmIAvw==
+"@vtexlab/gatsby-theme-instore-core@3.49.9-beta.10":
+  version "3.49.9-beta.10"
+  resolved "https://registry.npmjs.org/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.49.9-beta.10.tgz#91f898e895bb6a6a3fbc8931a6200cd8e2481a16"
+  integrity sha512-ORozbVyBQKahPdeJ0LoiWJ07rEPlzMNXfGdxmmvS0rQ2BIWnP1RfCw/u2oHmLJRhuhLbZfCo/64cfK8BVkUKHA==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -5188,8 +5188,8 @@
     "@vtex/phone" "^4.17.11"
     "@vtex/pickup-points-modal" "^1.1.15"
     "@vtex/styleguide" "^9.145.0"
-    "@vtexlab/assisted-sales-localization" "3.49.9-beta.9"
-    "@vtexlab/gatsby-plugin-instore-nginx" "3.49.9-beta.9"
+    "@vtexlab/assisted-sales-localization" "3.49.9-beta.10"
+    "@vtexlab/gatsby-plugin-instore-nginx" "3.49.9-beta.10"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/scheduled-delivery" "^1.0.2"
     "@xstate/react" "^3"
@@ -5219,7 +5219,7 @@
     gatsby-plugin-offline "^5.25.0"
     gatsby-plugin-react-svg "^3.3.0"
     gatsby-plugin-remove-serviceworker "^1.0.0"
-    graphql "^16.9.0"
+    graphql "^15.5.0"
     graphql-relay "^0.6.0"
     graphql-tag "^2.12.6"
     graphql-ws "5.16.2"
@@ -10968,15 +10968,10 @@ graphql@15.3.0:
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.3.0.tgz#3ad2b0caab0d110e3be4a5a9b2aa281e362b5278"
   integrity sha512-GTCJtzJmkFLWRfFJuoo9RWWa/FfamUHgiFosxi/X1Ani4AVWbeyBenZTNX6dM+7WSbbFfTo/25eh0LLkwHMw2w==
 
-graphql@^15.7.2:
+graphql@^15.5.0, graphql@^15.7.2:
   version "15.10.2"
   resolved "https://registry.npmjs.org/graphql/-/graphql-15.10.2.tgz#f57f8665cea9e77a80264d7eeb0d687079714e78"
   integrity sha512-1PRqdDPAmViWr4h1GVBT8RoPZfWSGZa7kDzleTilOfVIslsgf+cia3Nl95v1KDmR4iERPaT7WzQ+tN4MJmbg3w==
-
-graphql@^16.9.0:
-  version "16.14.0"
-  resolved "https://registry.npmjs.org/graphql/-/graphql-16.14.0.tgz#f1128a74b16a34d1245c8436bb07b488d87b83e1"
-  integrity sha512-BBvQ/406p+4CZbTpCbVPSxfzrZrbnuWSP1ELYgyS6B+hNeKzgrdB4JczCa5VZUBQrDa9hUngm0KnexY6pJRN5Q==
 
 gud@^1.0.0:
   version "1.0.0"
