@@ -5138,26 +5138,26 @@
   resolved "https://registry.yarnpkg.com/@vtex/tsconfig/-/tsconfig-0.5.6.tgz#c0eb4222a75d1b8a4fefb1d85bbd9349880ddbe5"
   integrity sha512-3pdtp0QiUjW3YqyA+2YPV3AsAJ68wHWELrg7JMlr7ULHNb4mUfmTBx31zbWG94K3OWp0KJFfF3ytQ+I68foqKA==
 
-"@vtexlab/assisted-sales-localization@3.49.9-beta.11":
-  version "3.49.9-beta.11"
-  resolved "https://registry.npmjs.org/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-3.49.9-beta.11.tgz#7cfba17c4e870a7b6e64503d61db9a613d743d3e"
-  integrity sha512-TZJU9aIAhFZUkLW385JOKTcX1zIuDnHhGcfCNzpCnr6uW2tZVAOZHMRD7WEmoLVTMY8Yq/G1pq3vXmbK3gSnow==
+"@vtexlab/assisted-sales-localization@3.49.9-beta.14":
+  version "3.49.9-beta.14"
+  resolved "https://registry.npmjs.org/@vtexlab/assisted-sales-localization/-/assisted-sales-localization-3.49.9-beta.14.tgz#09c61cdd4cbe3525aece4cdf6c8cc5168a6475fb"
+  integrity sha512-4Lslg74PPTIeIW9ax7mXoEm8NjtCMaaSXFxH/aThKPDmoM4S//XfFudadhBug/mekz93AniFUovcYnQLFAhY1g==
   dependencies:
     lint "^0.8.19"
     msk "^1.0.5"
 
-"@vtexlab/gatsby-plugin-instore-nginx@3.49.9-beta.11":
-  version "3.49.9-beta.11"
-  resolved "https://registry.npmjs.org/@vtexlab/gatsby-plugin-instore-nginx/-/gatsby-plugin-instore-nginx-3.49.9-beta.11.tgz#c1eafb6ae4be2d337993e570826e7b90822d2527"
-  integrity sha512-HPKQCEdy2Hhkhj2RUG1cD28kS4aVKkQcdNIaG7MmwOXBjk36FVAqV/lv1kj+UZ4X5KoV5ESi2OvE5jBI/KAoXw==
+"@vtexlab/gatsby-plugin-instore-nginx@3.49.9-beta.14":
+  version "3.49.9-beta.14"
+  resolved "https://registry.npmjs.org/@vtexlab/gatsby-plugin-instore-nginx/-/gatsby-plugin-instore-nginx-3.49.9-beta.14.tgz#e545038e26f79675d1faa6610b4187e7cf1ce164"
+  integrity sha512-l5BgCb3GxgyOnDGI0rDj9mEgCIRdU5/ssdeE2Cn05z3rb7R+8uCxbbACw70vBteEB8m1MhXk0RUZ4yUeAGQWgQ==
   dependencies:
     kebab-hash "^0.1.2"
     webpack-assets-manifest "^4.0.6"
 
-"@vtexlab/gatsby-theme-instore-core@3.49.9-beta.11":
-  version "3.49.9-beta.11"
-  resolved "https://registry.npmjs.org/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.49.9-beta.11.tgz#34b9d148ecf1e6a2351d7b7ad08dfe6adf807612"
-  integrity sha512-hoa2pjqPTEbqH2CeO7CkLvcBUK/dlIvWRKLb+WRsiwUFjYCg497zPHD0AuVmYCVBQpBCjhOGrK35+deYysiPzw==
+"@vtexlab/gatsby-theme-instore-core@3.49.9-beta.14":
+  version "3.49.9-beta.14"
+  resolved "https://registry.npmjs.org/@vtexlab/gatsby-theme-instore-core/-/gatsby-theme-instore-core-3.49.9-beta.14.tgz#74a6c9da59610fe37ba28a09c47616a647d42d40"
+  integrity sha512-77XubRK6zMbtjOj8R/PomELocdicO8D91Uw8wsCMz0n1547DVNKfrSyFCu5dtpIGgsIrqTBCyu3YKpr2Mvhwsw==
   dependencies:
     "@babel/core" "^7.17.8"
     "@babel/plugin-transform-typescript" "^7.13.0"
@@ -5188,8 +5188,8 @@
     "@vtex/phone" "^4.17.11"
     "@vtex/pickup-points-modal" "^1.1.15"
     "@vtex/styleguide" "^9.145.0"
-    "@vtexlab/assisted-sales-localization" "3.49.9-beta.11"
-    "@vtexlab/gatsby-plugin-instore-nginx" "3.49.9-beta.11"
+    "@vtexlab/assisted-sales-localization" "3.49.9-beta.14"
+    "@vtexlab/gatsby-plugin-instore-nginx" "3.49.9-beta.14"
     "@vtexlab/instore-profile" "2.9.6"
     "@vtexlab/scheduled-delivery" "^1.0.2"
     "@xstate/react" "^3"
